@@ -1,0 +1,48 @@
+.jumbotron {
+  display: flex;
+  background-size: cover;
+  background-color: #EDF5FF;
+  height: 100vh;
+}
+
+.logo {
+    align-content: center;
+}
+
+.badge{
+    align-content: center;
+}
+
+.navigation {
+    padding: 0px;
+    color:black;
+}
+
+ul {
+    font: DIN-Regular;
+    font-size: 12px;
+    padding:10px;
+    padding-bottom: 20px;
+    list-style-type: none;
+    text-align: center;    
+}
+
+li {
+    padding: 8px;
+    display: inline-block;
+}
+
+a {
+    padding:8px;
+}
+
+.mainintro {
+    text-align: center;
+}
+
+.content {
+    padding: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+}
