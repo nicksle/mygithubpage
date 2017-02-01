@@ -1,3 +1,4 @@
+
 .jumbotron {
   display: flex;
   background-size: cover;
@@ -24,12 +25,16 @@
     color:black;
 }
 
+.disabled {
+    color: darkgrey;
+}
+
 ul {
     font: DIN-Regular;
     font-size: 12px;
     padding:10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 15px;
     list-style-type: none;
     text-align: center;    
 }
@@ -41,6 +46,7 @@ li {
 }
 
 a {
+    color: black;
     padding:8px;
 }
 
@@ -49,7 +55,7 @@ a {
 }
 
 .content {
-    padding: 50px;
+    padding: 25px;
 }
 
 .centertext{
