@@ -1,131 +1,98 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Source+Sans+Pro');
-
-/* GLOBAL */
-
-body {
-    font-family: 'Lato', sans-serif;
-}
-
-/*NAVIGATION*/
-.navbar {
-    margin-bottom:0;
-}
-
-.navadjust {
-    margin-right: 6%;
-    margin-left: 6%;
-}
-
-.logoadjust {
-    padding-left: 6%
-}
-
-.navbar-brand {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 4%;
-}
-
-#custom-bootstrap-menu.navbar-default .navbar-brand {
-    color: rgba(119, 119, 119, 1);
-}
-#custom-bootstrap-menu.navbar-default {
-    font-size: 14px;
-    background-color: rgba(232, 247, 255, 1);
-    border-bottom-width: 1px;
-}
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: rgba(147, 164, 175, 1);
-    background-color: rgba(224, 62, 62, 0);
-}
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
-    color: rgba(51, 51, 51, 1);
-    background-color: rgba(248, 248, 248, 0);
-}
-#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
-#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
-#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
-    color: rgba(96, 150, 186, 1);
-    background-color: rgba(231, 231, 231, 0);
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle {
-    border-color: #ddd;
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
-#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
-    background-color: #ddd;
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
-    background-color: #888;
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
-#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #e8f7ff;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/design_style.css">
+  <title>Nicholas Le | Work</title>
+</head>
+    
+    
+<body><!DOCTYPE html>
+    <nav id="custom-bootstrap-menu" class="navbar navbar-default navbar-static-top" class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header logoadjust"><a class="navbar-brand" href="#">Nicholas Le</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-menubuilder">
+            <ul class="nav navbar-nav navbar-right navadjust">
+                <li><a href="index.html">About</a>
+                </li>
+                <li><a href="work.html">Work</a>
+                </li>
+                <li><a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 
-/*HEADER*/
-.jumbotron {
-  display: flex;
-  align-items: center;
-  background-image: url('images/About_Header.jpg');
-  background-size: cover;
-  color: #ffffff;
-  height: 550px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-}
+    <section class = "jumbotron">
+        <div class='container'> 
+            <div class="row">
+             <img src="/images/Design_Square.png" class="img-responsive center-block">
+            </div>
+        </div>
+    </section>
+    
+    <section class ="container-flex">
+        <div class="row text-center statement">
+            <h2><b>WORK</b></h2><h4>(We can work from home.)</h4>
+        </div>
+    </section>
+        
+    <section class="container-flex">
+        <div class="row">
+            <div class="col-md-2">
+                <span></span>
+            </div>
+            <div class="col-md-4 text-center content">
+                <img src="/images/nick1 copy.png" class="img-circle img-responsive">
+            </div>
+            <div class="col-md-4 text-center content">
+                <img src="/images/nick1 copy.png" class="img-circle img-responsive">
+            </div>
+            <div class="col-md-2">
+                <span></span>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container-flex">
+        <div class="row">
+            <div class="col-md-6 text-center content">
+                <img src="/images/nick1 copy.png" class="img-circle img-responsive shit">
+            </div>
+            <div class="col-md-6 text-center content">
+                <img src="/images/nick1 copy.png" class="img-circle img-responsive shit">
+            </div>
+        </div>
+    </section>
+    
+     <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2016 Skillfair</p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1">
+            <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">
+        </li>
+        <li class="col-sm-1">
+           <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
+        </li>
+        <li class="col-sm-1">
+           <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
+        </li>
+        <li class="col-sm-1">
+  <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg">
+        </li>
+      </ul>
+    </div>
+  </footer>
 
-.jumbotron .img-responsive {
-    display:block;
-    max-width: 40%;
-    min-width: 350px;
-    max-height: auto;
-}
-
-.col-md-6 {
-  margin: 0 0 30px;
-}
-
-/*CONTENT*/
-
-.intro {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.body{
-    margin-top: 50px;
-}
-
-.statement {
-    margin-bottom: 0px;
-}
-
-.content {
-
-    padding: 25px
-}
-
-
-/*FOOTER*/
-
-footer {
-  font-size: 12px;
-  padding: 20px 0;
-}
-
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer li img {
-  width: 32px;
-  height: 32px;
-}
-
+</body>
+</html>
