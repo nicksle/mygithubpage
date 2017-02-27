@@ -8,16 +8,16 @@ body {
 
 /*NAVIGATION*/
 .navbar {
-    margin-bottom:0; 
-}
-
-.logoadjust {
-    padding-left: 6%
+    margin-bottom:0;
 }
 
 .navadjust {
     margin-right: 6%;
     margin-left: 6%;
+}
+
+.logoadjust {
+    padding-left: 6%
 }
 
 .navbar-brand {
@@ -69,7 +69,7 @@ body {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('/Users/NickLe/Desktop/Portfolio Site/images/Design_Background@2x.png');
+  background-image: url('images/About_Header.jpg');
   background-size: cover;
   color: #ffffff;
   height: 550px;
@@ -83,9 +83,16 @@ body {
     max-height: auto;
 }
 
-
+.col-md-6 {
+  margin: 0 0 30px;
+}
 
 /*CONTENT*/
+
+.intro {
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 .body{
     margin-top: 50px;
@@ -96,16 +103,8 @@ body {
 }
 
 .content {
-    display: inline-block;
-    align-content: center;
-    margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 10px;
-}
 
-.shit {
-    width: 50%;
+    padding: 25px
 }
 
 
