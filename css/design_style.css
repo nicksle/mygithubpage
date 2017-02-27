@@ -108,7 +108,6 @@ p {
     margin-top: 30px;
     margin-left: 10px;
     margin-right: 10px;
-    padding: 10px;
 }
 
 .space {
@@ -116,6 +115,44 @@ p {
     padding: 15px;
 }
 
+.description {
+    margin-left:25px;
+    margin-right: 25px;
+}
+
+.worknav {
+    box-sizing: border-box;
+    background-color: white;
+    position: relative;
+}
+
+.worknav:hover img {
+    
+    opacity: 0.3;
+}
+
+.worknav:hover .work-text-content {
+    opacity: 1;
+}
+
+.worknav img,.work-text-content {
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+}
+
+.work-text-content {
+    position: absolute;
+    color: black;
+    left: 0;
+    top: 25%;
+    right: 0;
+    bottom: 0;
+    font-size: px;
+    text-align: center;
+    opacity: 0;
+}
 
 /*FOOTER*/
 
@@ -137,3 +174,4 @@ footer li img {
   width: 32px;
   height: 32px;
 }
+
