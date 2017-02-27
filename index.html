@@ -1,56 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8"> 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="Main_Site_Style.css">
-        <title>Hello!</title>
-    </head>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Nicholas Le | About</title>
+</head>
     
-<body>
-   <header class="jumbotron">
-       <div class="container">
-           <div class="row">
-               <div class="col-sm-12 text-center">
-               <img src="Group 47@2x.png" height="141">
-                   <ul>
-                    <li><a href="index.html" class="active" id="navigation">ABOUT</a></li>
-                    <li><a href="Main_Site_Design.html" id="navigation">WORK</a></li>
-                    <li class= "disabled">RESUME</li>
-                    <li class= "disabled">CONTACT</li>
-                </ul>
-                <img src="Hello!.png" class="img-circle" "img-responsive" width="336px" height="336px">
-        <div class="container">
-            <div class="row">
-            <div class="col-sm-12 text-center">
-                <img src="down button.png" class= "img-responsive center-block arrow" width="40px" height="40px">
-                </div>
+    
+<body><!DOCTYPE html>
+<nav id="custom-bootstrap-menu" class="navbar navbar-default navbar-static-top" class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header logoadjust"><a class="navbar-brand" href="#">Nicholas Le</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-menubuilder">
+            <ul class="nav navbar-nav navbar-right navadjust">
+                <li><a href="index.html">About</a>
+                </li>
+                <li><a href="work.html">Work</a>
+                </li>
+                <li><a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+  
+
+    <section class = "jumbotron">
+        <div class='container'> 
+             <div class="row">
+                 <img src="images/About_Square.png" class="img-responsive center-block">
             </div>
         </div>
-                   
-               </div>
-           </div>
-       </div> 
-    </header>
+    </section>
+    
     <section class ="container-flex">
-        <div class="row text-center centertext">
-            <h2><b>NICE TO MEET YOU!</b></h2><h4>(Where you been? I can show you incredible things.)</h4>
+        <div class="row text-center">
+            <div class="intro">
+            <h2><b>NICE TO MEET YOU!</b></h2><h4>(Where've you been? I can show you incredible things.)</h4>
+            </div>
         </div>
     </section>
+    
     <section class="container">
-        <div class="row">
+        <div class="row body">
             <div class="col-sm-6 content">
-                <img src="nick1.png" class="img-circle img-responsive">
+                <img src="/Users/NickLe/Desktop/Portfolio Site/images/nick1 copy.png" class="img-circle img-responsive">
             </div>
             <div class="col-sm-6 content">
-                <p>Hey there!  I’m Nick, an aspiring visual & interaction designer, studying Molecular & Cellular Biology and Communications.
-</p>
+                <p>Hey there!  I’m Nick, an aspiring visual & interaction designer, studying Molecular & Cellular Biology and Communications.</p>
             </div>
         </div>
     </section>
+    
+     <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2016 Skillfair</p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1">
+            <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">
+        </li>
+        <li class="col-sm-1">
+           <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
+        </li>
+        <li class="col-sm-1">
+           <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
+        </li>
+        <li class="col-sm-1">
+  <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg">
+        </li>
+      </ul>
+    </div>
+  </footer>
 
 </body>
 </html>
