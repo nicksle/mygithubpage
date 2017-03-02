@@ -89,7 +89,7 @@ p {
 
 .jumbotron .img-responsive {
     display:block;
-    max-width: 40%;
+    max-width: 35%;
     min-width: 350px;
     max-height: auto;
 }
