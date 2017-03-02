@@ -82,9 +82,10 @@ p {
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
+
 .jumbotron .img-responsive {
     display:block;
-    max-width: 40%;
+    max-width: 35%;
     min-width: 350px;
     max-height: auto;
 }
