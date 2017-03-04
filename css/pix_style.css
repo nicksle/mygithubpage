@@ -83,13 +83,13 @@ p {
   background-image: url('../images/About_Header.jpg');
   background-size: cover;
   color: #ffffff;
-  height: 550px;
+  height: 480px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
 .jumbotron .img-responsive {
     display:block;
-    max-width: 40%;
+    max-width: 35%;
     min-width: 350px;
     max-height: auto;
 }
