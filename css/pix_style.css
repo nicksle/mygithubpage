@@ -123,11 +123,10 @@ p {
     padding-right: 10%;
 }
 
-imagecontent{
-    margin-top: 24px;
+.imagecontent{
+    margin-top: 32px;
     padding-left: 10%;
     padding-right: 10%;
-    
 }
 
 /*FOOTER*/
