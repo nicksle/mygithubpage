@@ -11,6 +11,7 @@ body, html { overflow-x: hidden; }
 p {
     font-size: 18px; 
     line-height: 27px;
+    font-weight: 100;
 }
 
 .col-xs-12 {
@@ -123,16 +124,22 @@ b {
     padding-right: 20%;
 }
 
+.subtitle {
+    padding-top:5px;
+    padding-bottom: 5px;
+    
+}
+
 .maincontent {
     margin-top: 64px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
 }
 
 .imagecontent{
     margin-top: 32px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
 }
 
 
