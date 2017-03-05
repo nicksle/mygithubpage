@@ -137,11 +137,20 @@ b {
 }
 
 .imagecontent{
-    margin-top: 32px;
+    margin-top: 16px;
     padding-left: 12.5%;
     padding-right: 12.5%;
 }
 
+.picspace {
+    padding-top: 16px;
+}
+
+.secondarycontent {
+    margin-top: 16px;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
 
 
 /*FOOTER*/
