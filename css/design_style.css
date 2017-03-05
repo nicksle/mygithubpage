@@ -157,9 +157,18 @@ p {
 
 /*FOOTER*/
 
+.copyright {
+    font-size: 14px;
+}
+
+.crspace {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 footer {
-  font-size: 12px;
-  padding: 20px 0;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 footer .col-sm-8 {
@@ -175,4 +184,3 @@ footer li img {
   width: 32px;
   height: 32px;
 }
-
