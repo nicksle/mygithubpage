@@ -94,6 +94,7 @@ p {
 
 /*CONTENT*/
 
+
 .body{
     margin-top: 50px;
 }
@@ -155,6 +156,10 @@ p {
     opacity: 0;
 }
 
+.work-text-content h2{
+    margin-top: -15px;
+}
+ 
 /*FOOTER*/
 
 .copyright {
