@@ -123,11 +123,27 @@ p {
     padding-right: 10%;
 }
 
+imagecontent{
+    margin-top: 24px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
 /*FOOTER*/
 
+.copyright {
+    font-size: 14px;
+}
+
+.crspace {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 footer {
-  font-size: 12px;
-  padding: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 footer .col-sm-8 {
@@ -143,4 +159,3 @@ footer li img {
   width: 32px;
   height: 32px;
 }
-
