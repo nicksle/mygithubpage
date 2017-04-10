@@ -125,6 +125,12 @@ p {
     padding-right: 10%;
 }
 
+.kllocontent {
+    margin-top: 16px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 /*FOOTER*/
 
 .copyright {
