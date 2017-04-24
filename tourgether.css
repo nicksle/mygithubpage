@@ -89,7 +89,7 @@ b {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('../images/TG Background@2x.png');
+  background-image: url('../images/TG Background.png');
   background-size: cover;
   color: #ffffff;
   height: 480px;
