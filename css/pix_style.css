@@ -160,6 +160,20 @@ b {
     padding-right: 15%;
 }
 
+.descriptiontext{
+    font-size: 12px;
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 1.5;
+}
+
+.picdiscspace {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+}
+
 
 /*FOOTER*/
 
