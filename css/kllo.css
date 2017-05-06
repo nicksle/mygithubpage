@@ -133,6 +133,19 @@ p {
     padding-right: 20%;
 }
 
+.picdiscspace {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.sdescriptiontext {
+    font-size: 12px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 2.5px;
+    line-height: 1.5;
+}
 /*FOOTER*/
 
 .copyright {
