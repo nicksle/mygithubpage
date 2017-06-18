@@ -32,8 +32,9 @@ p {
 }
 
 .logoadjust {
-    padding-left: 6%
-}
+    padding-left: 4%;
+    padding-right: 4%;
+ }
 
 .navbar-brand {
     padding-left: 0;

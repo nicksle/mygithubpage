@@ -37,8 +37,8 @@ b {
 }
 
 .logoadjust {
-    width: 40%;
-    margin-top: -6.5pt;
+    padding-left: 4%;
+    padding-right: 4%;
  }
 
 .navbar-brand {
