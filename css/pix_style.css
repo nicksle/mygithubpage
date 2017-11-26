@@ -1,19 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 /* GLOBAL */
-
 body {
-    font-family: faricy-new-web, sans-serif;
+    font-family: faricy-new-web, lato;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 body, html { overflow-x: hidden; }
 
 p {
-    font-size: 18px; 
-    line-height: 27px;
-    font-weight: 100;
+    font-size: 16px; 
+    line-height: 33px;
+    font-weight: 400;
 }
 
 .col-xs-12 {
@@ -21,10 +20,28 @@ p {
 }
 
 b {
-    font-weight: 900;
+    font-weight: 700;
 }
 
+h1{
+    font-size: 48px;
+    letter-spacing: 3px;
+}
 
+h2{
+    font-weight:900;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+h3 {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+h4 {
+    font-size: 12px;
+}
 
 /*NAVIGATION*/
 .navbar {
@@ -120,11 +137,52 @@ b {
     margin-bottom: 0px;
 }
 
-.content {
-    margin-top: 40px;
-    margin-bottom: 25px;
+.article-title {
+    margin-top: 52px;
+    padding-left: 17.56%;
+    padding-right: 17.56%; 
+}
+
+.tag{
+    margin-top: 16px;
+    font-size: 12px;
+    padding-left: 17.56%;
+    padding-right: 17.56%; 
+}
+
+.content-title1 {
+    margin-top: 16px;
     padding-left: 17.56%;
     padding-right: 17.56%;
+}
+
+.content-title2 {
+    margin-top: 53px;
+    padding-left: 17.56%;
+    padding-right: 17.56%;
+}
+
+.content-title-inblock {
+    padding-left: 17.56%;
+    padding-right: 17.56%;
+}
+
+.content{
+    margin-top: 23px;
+    padding-left: 17.56%;
+    padding-right: 17.56%;
+}
+
+.content-bottom {
+    margin-bottom: 66px;
+}
+
+
+#rectangle{
+    margin-top:66px; 
+    width:100%;
+    height:300px;
+    background-color:mistyrose;
 }
 
 .subtitle {
