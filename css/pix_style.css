@@ -90,7 +90,7 @@ b {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('../images/About_Header.jpg');
+  background-image: ;
   background-size: cover;
   color: #ffffff;
   height: 480px;
@@ -123,8 +123,8 @@ b {
 .content {
     margin-top: 40px;
     margin-bottom: 25px;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 17.56%;
+    padding-right: 17.56%;
 }
 
 .subtitle {
