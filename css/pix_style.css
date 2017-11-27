@@ -158,9 +158,22 @@ h4 {
 
 .content-title2 {
     margin-top: 53px;
-    padding-left: 17.56%;
+    padding-left: 16.5%;
     padding-right: 17.56%;
 }
+
+.content-title3 {
+    margin-top: 66px;
+    padding-left: 16.5%;
+    padding-right: 17.56%;
+}
+
+.content-title4 {
+    margin-top: 132px;
+    padding-left: 16.5%;
+    padding-right: 17.56%;
+}
+
 
 .content-title-inblock {
     padding-left: 17.56%;
