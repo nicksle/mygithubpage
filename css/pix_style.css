@@ -156,6 +156,12 @@ h4 {
     padding-right: 17.56%;
 }
 
+.content-title1-display {
+    margin-top: 16px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .content-title2 {
     margin-top: 53px;
     padding-left: 17.56%;
@@ -184,6 +190,12 @@ h4 {
     margin-top: 23px;
     padding-left: 17.56%;
     padding-right: 17.56%;
+}
+
+.content-display{
+    margin-top: 23px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .content-bottom {
