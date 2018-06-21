@@ -113,7 +113,7 @@ h4 {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image:url('/images/WeGrow%20Splash%20Image.jpeg') ;
+  background-image: url(../images/WeGrow%20Splash%20Image.png);
   background-size: cover;
   color: #ffffff;
   height: 480px;
