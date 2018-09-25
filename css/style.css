@@ -3,17 +3,21 @@
 /* GLOBAL */
 
 body {
-    font-family: faricy-new-web, sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 body, html { overflow-x: hidden; }
 
 p {
-    font-size: 18px; 
+    font-size: 12pt; 
     line-height: 27px;
     font-weight: 100;
+}
+
+b {
+    font-weight: 600;
 }
 
 
@@ -22,34 +26,41 @@ footer li {
     padding: 5px;
     margin: 5px;
 }
+
+#blue {
+    color: rgba(1,63,163,100);
+}
+
+#yellow {
+    color: rgba(255,210,31,100);
+}
+
+#green {
+    color: rgba(79,190,92,100)
+}
+
 /*NAVIGATION*/
 .navbar {
-    margin-bottom:0;
+    margin-bottom:8px;
+    margin-top:8px; 
+    border: 1px solid transparent;
 }
 
 .navadjust {
-    margin-right: 6%;
-    margin-left: 6%;
+    margin-right: 200px;
+    margin-left: ;
 }
 
-.logoadjust {
-    padding-left: 4%;
-    padding-right: 4%;
- }
-
-.navbar-brand {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 4%;
-}
 
 #custom-bootstrap-menu.navbar-default .navbar-brand {
-    color: rgba(119, 119, 119, 1);
+    color: rgba();
+    margin-left: 200px;
+    font-size: 14pt;
 }
 #custom-bootstrap-menu.navbar-default {
-    font-size: 14px;
-    background-color: rgba(232, 247, 255, 1);
-    border-bottom-width: 1px;
+    font-size: 14pt;
+    background-color: white;
+
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
     color: rgba(147, 164, 175, 1);
@@ -65,6 +76,7 @@ footer li {
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
     color: rgba(96, 150, 186, 1);
     background-color: rgba(231, 231, 231, 0);
+    font-weight: 600;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
     border-color: #ddd;
@@ -86,11 +98,11 @@ footer li {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('../images/About_Header.jpg');
+  background-image: url('../images/Splash%20Image.svg');
   background-size: cover;
-  color: #ffffff;
-  height: 480px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+  background-position: center;
+  height: 660px;
+
 }
 
 .jumbotron .img-responsive {
@@ -100,39 +112,74 @@ footer li {
     max-height: auto;
 }
 
-.col-md-6 {
-  margin: 0 0 30px;
+.jumbotron p {
+    font-size: 14pt;
+}
+
+.jumbotron h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 
+}
+
+jumbotron h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.barmargin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.downbuttonmargin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.title {
+    margin-top: 20px;
+}
+
+.titlemargin {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.titletext {
+    font-size: 20pt; 
+    line-height: 40px;
+    font-weight: 100;
+    
 }
 
 /*CONTENT*/
 
-.intro {
-    margin-left: 10%;
-    margin-right: 10%;
+.casestudymargin {
+    margin-top: 32px;
+
 }
 
-.body{
-    margin-top: 50px;
+.smbxdrop {
+    box-shadow: 3px 3px 15px rgba(141,115,0,0.59);
+    border-radius: 10px;
+    transition: 0.25s;
 }
 
-.statement {
-    margin-bottom: 0px;
+.smbxdrop:hover {
+    box-shadow: 3px 3px 15px rgba(141,115,0,0.2);  
 }
 
-.content {
-
-    padding: 25px
+.wegrowdrop {
+    box-shadow: 3px 3px 15px rgba(11,103,22,0.59);
+    border-radius: 10px;
+    transition: 0.25s;
 }
 
-.casing {
-    margin-left: 25px;
-    margin-right: 25px;
+.wegrowdrop:hover {
+    box-shadow: 3px 3px 15px rgba(11,103,22,0.2);  
 }
-
-.shiz {
-    margin-top: 30px;
-}
-
 
 /*FOOTER*/
 
