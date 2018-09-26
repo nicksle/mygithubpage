@@ -36,7 +36,11 @@ footer li {
 }
 
 #green {
-    color: rgba(79,190,92,100)
+    color: rgba(79,190,92,100);
+}
+
+#pink {
+    color: rgba(237,192,177,100);
 }
 
 /*NAVIGATION*/
