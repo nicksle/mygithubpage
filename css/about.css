@@ -36,7 +36,7 @@ footer li {
 }
 
 #green {
-    color: rgba(79,190,92,100);
+    color: rgba(79,190,92,100)
 }
 
 #pink {
@@ -46,7 +46,8 @@ footer li {
 /*NAVIGATION*/
 .navbar {
     margin-bottom:8px;
-    margin-top: 8px;
+    margin-top:8px; 
+    border: 1px solid transparent;
 }
 
 .navadjust {
@@ -57,10 +58,11 @@ footer li {
 
 #custom-bootstrap-menu.navbar-default .navbar-brand {
     color: rgba();
-    margin-left: 200px;;
+    margin-left: 200px;
+    font-size: 14pt;
 }
 #custom-bootstrap-menu.navbar-default {
-    font-size: 14px;
+    font-size: 14pt;
     background-color: white;
 
 }
@@ -78,6 +80,7 @@ footer li {
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
     color: rgba(96, 150, 186, 1);
     background-color: rgba(231, 231, 231, 0);
+    font-weight: 600;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
     border-color: #ddd;
@@ -114,7 +117,7 @@ footer li {
 }
 
 .jumbotron p {
-    font-size: 13pt;
+    font-size: 14pt;
 }
 
 .jumbotron h1 {
@@ -129,12 +132,18 @@ jumbotron h3 {
 }
 
 .barmargin {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+.downbuttonmargin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 .title {
-    margin-top: 65px;
+    margin-top: 20px;
 }
 
 .titlemargin {
@@ -152,9 +161,29 @@ jumbotron h3 {
 /*CONTENT*/
 
 .casestudymargin {
-    margin-top: 16px;
+    margin-top: 32px;
+
 }
 
+.smbxdrop {
+    box-shadow: 3px 3px 15px rgba(141,115,0,0.59);
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.smbxdrop:hover {
+    box-shadow: 3px 3px 15px rgba(141,115,0,0.2);  
+}
+
+.wegrowdrop {
+    box-shadow: 3px 3px 15px rgba(11,103,22,0.59);
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.wegrowdrop:hover {
+    box-shadow: 3px 3px 15px rgba(11,103,22,0.2);  
+}
 
 /*FOOTER*/
 
