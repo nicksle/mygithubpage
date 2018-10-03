@@ -49,6 +49,11 @@ h4 {
     font-size: 12px;
 }
 
+.dropshadow {
+    box-shadow: 4px 4px 20px rgba(154,154,154,0.50);
+    border-radius: 4px;
+}
+
 /*NAVIGATION*/
 .navbar {
     margin-bottom:8px;
@@ -197,6 +202,14 @@ h4 {
     margin-top: 23px;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.content-displayr{
+    padding-right: 5%;
+}
+
+.content-displayl{
+    padding-left: 5%;
 }
 
 .content-bottom {

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1510 1245.7" style="enable-background:new 0 0 1510 1245.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#EEEEEE;}
+	.st2{fill:#2B2B2B;}
+	.st3{font-family:'CircularStd-Bold';}
+	.st4{font-size:36px;}
+	.st5{letter-spacing:6;}
+	.st6{font-family:'CircularStd-Medium';}
+	.st7{font-size:24px;}
+	.st8{font-family:'CircularStd-Book';}
+	.st9{letter-spacing:2;}
+	.st10{fill:#6B6B6B;}
+	.st11{fill:#D8D8D8;}
+	.st12{fill:#656565;}
+	.st13{font-size:20px;}
+	.st14{filter:url(#filter-2);}
+	.st15{fill:#ACACAC;}
+	.st16{font-size:18px;}
+	.st17{fill:#DEDEDE;}
+	.st18{filter:url(#filter-4);}
+	.st19{fill:#FAFAFA;}
+</style>
+<filter  filterUnits="objectBoundingBox" height="115.4%" id="filter-4" width="114.0%" x="-6.1%" y="-6.7%">
+	<feOffset  dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+	<feGaussianBlur  in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"></feGaussianBlur>
+	<feColorMatrix  in="shadowBlurOuter1" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.235677083 0">
+		</feColorMatrix>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="111.4%" id="filter-2" width="114.0%" x="-6.1%" y="-5.0%">
+	<feOffset  dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+	<feGaussianBlur  in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"></feGaussianBlur>
+	<feColorMatrix  in="shadowBlurOuter1" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.235677083 0">
+		</feColorMatrix>
+</filter>
+<g id="Layer_2">
+	<g>
+		
+			<image style="overflow:visible;opacity:0.48;" width="1560" height="1303" xlink:href="DC7A0DF560EE5CFC.png"  transform="matrix(1 0 0 1 -20.0034 -21.1278)">
+		</image>
+		<g>
+			<rect x="35" y="34.4" class="st0" width="1440" height="1182.5"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_1">
+	<title>Dashboard Extended Example</title>
+	<desc>Created with Sketch.</desc>
+	<g id="Dashboard-Extended-Example">
+		<rect id="Rectangle" x="35" y="28.9" class="st1" width="359" height="1185.3"/>
+		<text transform="matrix(1 0 0 1 422.9966 120.8722)" class="st2 st3 st4 st5">Dashboard</text>
+		<text transform="matrix(1 0 0 1 422.9966 208.8722)" class="st2 st6 st7">To - Do</text>
+		<text transform="matrix(1 0 0 1 422.9966 584.8722)" class="st2 st6 st7">Courses</text>
+		<text transform="matrix(1 0 0 1 82.9966 214.8722)" class="st8 st7 st9">Dashboar</text>
+		<text transform="matrix(1 0 0 1 206.483 214.8722)" class="st8 st7 st9"> </text>
+		<text transform="matrix(1 0 0 1 206.3646 214.8722)" class="st8 st7 st9">d</text>
+		<text transform="matrix(1 0 0 1 82.9966 286.8722)" class="st10 st8 st7 st9">Courses</text>
+		<text transform="matrix(1 0 0 1 82.9966 358.8722)" class="st10 st8 st7 st9">Settings</text>
+		<circle id="Oval-Copy" class="st11" cx="121" cy="110.9" r="38"/>
+		<rect id="Rectangle-2" x="423" y="252.9" class="st1" width="953" height="61"/>
+		<text transform="matrix(1 0 0 1 450.9966 289.8722)" class="st12 st8 st13">Assignment Name</text>
+		<text transform="matrix(1 0 0 1 482.9966 373.8722)" class="st12 st8 st13">Found Footage Film</text>
+		<text transform="matrix(1 0 0 1 482.9966 434.8722)" class="st12 st8 st13">Camera Quiz</text>
+		<text transform="matrix(1 0 0 1 482.9966 495.8722)" class="st12 st8 st13">Forum Post 3</text>
+		<text transform="matrix(1 0 0 1 754.9966 373.8722)" class="st12 st8 st13">FILM 26</text>
+		<text transform="matrix(1 0 0 1 754.9966 434.8722)" class="st12 st8 st13">FILM 26</text>
+		<text transform="matrix(1 0 0 1 754.9966 495.8722)" class="st12 st8 st13">ESPM 161</text>
+		<text transform="matrix(1 0 0 1 956.9966 373.8722)" class="st12 st8 st13">Sept 26</text>
+		<text transform="matrix(1 0 0 1 956.9966 434.8722)" class="st12 st8 st13">Sept 26</text>
+		<text transform="matrix(1 0 0 1 956.9966 495.8722)" class="st12 st8 st13">Sept 26</text>
+		<text transform="matrix(1 0 0 1 1160.9966 373.8722)" class="st12 st8 st13">Class Assignment</text>
+		<text transform="matrix(1 0 0 1 1160.9966 434.8722)" class="st12 st8 st13">Quiz</text>
+		<text transform="matrix(1 0 0 1 1160.9966 495.8722)" class="st12 st8 st13">Disc Assignment</text>
+		<text transform="matrix(1 0 0 1 754.9966 289.8722)" class="st12 st8 st13">Class</text>
+		<text transform="matrix(1 0 0 1 956.9966 289.8722)" class="st12 st8 st13">Due Date</text>
+		<text transform="matrix(1 0 0 1 1160.9966 289.8722)" class="st12 st8 st13">Assignment Type</text>
+		<rect id="Rectangle-3" x="428" y="349.9" class="st1" width="32" height="32"/>
+		<rect id="Rectangle-3-Copy" x="428" y="410.9" class="st1" width="32" height="32"/>
+		<rect id="Rectangle-3-Copy-2" x="428" y="471.9" class="st1" width="32" height="32"/>
+		<g id="Rectangle-2-Copy">
+			<g class="st14">
+				<rect id="path-1_2_" x="423" y="628.9" width="458" height="562"/>
+			</g>
+			<g>
+				<rect id="path-1_1_" x="423" y="628.9" class="st1" width="458" height="562"/>
+			</g>
+		</g>
+		<rect id="Rectangle-2-Copy-2" x="423" y="808.9" class="st0" width="458" height="382"/>
+		<text transform="matrix(1 0 0 1 538.9966 1001.8722)" class="st15 st8 st16">Sept 30 at 10:00pm</text>
+		<text transform="matrix(1 0 0 1 538.9966 1068.8722)" class="st15 st8 st16">Sept 30 at 10:00pm</text>
+		<text transform="matrix(1 0 0 1 538.9966 977.8722)" class="st12 st8 st13">Forum Post 3</text>
+		<text transform="matrix(1 0 0 1 538.9966 1044.8722)" class="st12 st8 st13">Embedded Seminar</text>
+		<rect id="Rectangle-3_1_" x="487" y="965.9" class="st1" width="32" height="32"/>
+		<rect id="Rectangle-3-Copy-3" x="487" y="1032.9" class="st1" width="32" height="32"/>
+		<text transform="matrix(1 0 0 1 482.9966 852.8722)" class="st12 st8 st13">Environmental Philosophy and Ethics</text>
+		<text transform="matrix(1 0 0 1 482.9966 884.8722)" class="st15 st8 st16">ESPM 161</text>
+		<text transform="matrix(1 0 0 1 743.9966 884.8722)" class="st17 st8 st16">Fall 2018</text>
+		<g id="Group-2" transform="translate(404.000000, 885.000000)">
+			<text transform="matrix(1 0 0 1 78.9966 50.8722)" class="st15 st8 st16">Assignments</text>
+			<circle id="Oval-3" class="st1" cx="51" cy="44.9" r="16"/>
+			<text transform="matrix(1 0 0 1 45.9966 50.8722)" class="st0 st3 st16">2</text>
+			<path id="Combined-Shape" class="st11" d="M198,47.7l-3.5-3.5c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4l4.2,4.2
+				c0.4,0.4,1,0.4,1.4,0l4.2-4.2c0.4-0.4,0.4-1,0-1.4c-0.4-0.4-1-0.4-1.4,0L198,47.7z"/>
+		</g>
+		<g id="Group-3" transform="translate(404.000000, 1066.000000)">
+			<text transform="matrix(1 0 0 1 78.9966 50.8722)" class="st15 st8 st16">Announcements</text>
+			<circle id="Oval-3-Copy" class="st1" cx="51" cy="44.9" r="16"/>
+			<path id="Combined-Shape-Copy" class="st11" d="M231.8,44.9l-3.5,3.5c-0.4,0.4-0.4,1,0,1.4c0.4,0.4,1,0.4,1.4,0l4.2-4.2
+				c0.4-0.4,0.4-1,0-1.4l-4.2-4.2c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4L231.8,44.9z"/>
+			<text transform="matrix(1 0 0 1 45.9966 50.8722)" class="st0 st3 st16">2</text>
+		</g>
+		<g id="Group" transform="translate(404.000000, 1106.000000)">
+			<text transform="matrix(1 0 0 1 78.9966 50.8722)" class="st15 st8 st16">Recent Feedback</text>
+			<circle id="Oval-3-Copy-2" class="st1" cx="51" cy="44.9" r="16"/>
+			<text transform="matrix(1 0 0 1 45.9966 49.8722)" class="st0 st3 st16">2</text>
+			<path id="Combined-Shape-Copy-2" class="st11" d="M236.8,44.9l-3.5,3.5c-0.4,0.4-0.4,1,0,1.4c0.4,0.4,1,0.4,1.4,0l4.2-4.2
+				c0.4-0.4,0.4-1,0-1.4l-4.2-4.2c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4L236.8,44.9z"/>
+		</g>
+		<g id="Group-4-Copy" transform="translate(878.000000, 600.000000)">
+			<g id="Rectangle-2-Copy_1_">
+				<g class="st18">
+					<rect id="path-3_2_" x="35" y="28.9" width="458" height="415"/>
+				</g>
+				<g>
+					<rect id="path-3_1_" x="35" y="28.9" class="st1" width="458" height="415"/>
+				</g>
+			</g>
+			<rect id="Rectangle-2-Copy-2_1_" x="35" y="208.9" class="st0" width="458" height="235"/>
+			<text transform="matrix(1 0 0 1 94.9966 252.8722)" class="st12 st8 st13">Introduction to Digital Film</text>
+			<text transform="matrix(1 0 0 1 94.9966 284.8722)" class="st15 st8 st16">Film 26</text>
+			<text transform="matrix(1 0 0 1 355.9966 284.8722)" class="st17 st8 st16">Fall 2018</text>
+			<g id="Group-2_1_" transform="translate(16.000000, 285.000000)">
+				<text transform="matrix(1 0 0 1 78.9966 50.8722)" class="st15 st8 st16">Assignments</text>
+				<circle id="Oval-3_1_" class="st1" cx="51" cy="44.9" r="16"/>
+				<text transform="matrix(1 0 0 1 45.9966 50.8722)" class="st0 st3 st16">2</text>
+				<path id="Combined-Shape_1_" class="st11" d="M200.8,44.9l-3.5,3.5c-0.4,0.4-0.4,1,0,1.4c0.4,0.4,1,0.4,1.4,0l4.2-4.2
+					c0.4-0.4,0.4-1,0-1.4l-4.2-4.2c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4L200.8,44.9z"/>
+			</g>
+			<g id="Group-3_1_" transform="translate(16.000000, 325.500000)">
+				<text transform="matrix(1 0 0 1 78.9966 50.8722)" class="st15 st8 st16">Announcements</text>
+				<circle id="Oval-3-Copy_1_" class="st1" cx="51" cy="44.9" r="16"/>
+				<path id="Combined-Shape-Copy_1_" class="st11" d="M231.8,44.9l-3.5,3.5c-0.4,0.4-0.4,1,0,1.4c0.4,0.4,1,0.4,1.4,0l4.2-4.2
+					c0.4-0.4,0.4-1,0-1.4l-4.2-4.2c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4L231.8,44.9z"/>
+				<text transform="matrix(1 0 0 1 45.9966 50.8722)" class="st0 st3 st16">2</text>
+			</g>
+			<g id="Group_1_" transform="translate(16.000000, 366.000000)">
+				<text transform="matrix(1 0 0 1 78.9966 50.8722)" class="st15 st8 st16">Recent Feedback</text>
+				<circle id="Oval-3-Copy-2_1_" class="st1" cx="51" cy="44.9" r="16"/>
+				<text transform="matrix(1 0 0 1 45.9966 49.8722)" class="st0 st3 st16">2</text>
+				<path id="Combined-Shape-Copy-2_1_" class="st11" d="M236.8,44.9l-3.5,3.5c-0.4,0.4-0.4,1,0,1.4c0.4,0.4,1,0.4,1.4,0l4.2-4.2
+					c0.4-0.4,0.4-1,0-1.4l-4.2-4.2c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4L236.8,44.9z"/>
+			</g>
+		</g>
+		<path id="Combined-Shape_2_" class="st17" d="M814.7,985.9l-7.1,7.1c-0.8,0.8-0.8,2,0,2.8c0.8,0.8,2,0.8,2.8,0l8.5-8.5
+			c0.8-0.8,0.8-2,0-2.8l-8.5-8.5c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8L814.7,985.9z"/>
+		<path id="Combined-Shape-Copy-3" class="st17" d="M814.7,1052.9l-7.1,7.1c-0.8,0.8-0.8,2,0,2.8s2,0.8,2.8,0l8.5-8.5
+			c0.8-0.8,0.8-2,0-2.8l-8.5-8.5c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8L814.7,1052.9z"/>
+		<g id="Group-5-Copy-2" transform="translate(480.000000, 157.000000)">
+			<path id="Rectangle-10" class="st11" d="M54,29.9L54,29.9c6.6,0,12,5.4,12,12l0,0c0,6.6-5.4,12-12,12l0,0c-6.6,0-12-5.4-12-12
+				l0,0C42,35.2,47.4,29.9,54,29.9z"/>
+			<text transform="matrix(1 0 0 1 48.9866 48.8722)" class="st19 st6 st13">3</text>
+		</g>
+	</g>
+</g>
+</svg>
