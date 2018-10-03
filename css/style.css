@@ -195,6 +195,17 @@ jumbotron h3 {
     box-shadow: 3px 3px 15px rgba(68,125,226,0.2);  
 }
 
+.bCourse {
+    box-shadow: 3px 3px 15px rgba(151,68,226,0.59);
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.bCourse:hover {
+    box-shadow: 3px 3px 15px rgba(68,125,226,0.2);  
+}
+
+
 
 /*FOOTER*/
 
