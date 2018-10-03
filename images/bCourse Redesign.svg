@@ -12,7 +12,9 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-HD" transform="translate(-290.000000, -1776.000000)">
             <g id="Group-9" transform="translate(290.000000, 1776.000000)">
-                <rect id="The-SMBX-Copy" fill="#9744E2" x="0" y="0" width="860" height="430" rx="8"></rect>
+                <g id="Group-10" fill="#9744E2">
+                    <rect id="The-SMBX-Copy" x="0" y="0" width="860" height="430" rx="8"></rect>
+                </g>
                 <g id="Group-368" transform="translate(44.000000, 63.000000)">
                     <g id="Group-353">
                         <g id="Group-3" transform="translate(0.837975, 287.250689)">
@@ -239,18 +241,15 @@
                 </g>
                 <g id="Group-Copy-2" transform="translate(458.000000, 113.000000)" font-family="Lato-Bold, Lato" font-size="32" font-weight="bold" letter-spacing="1.42999995" line-spacing="50">
                     <g id="Group-3">
-                        <text id="Rethinking-the-Cours" fill="#6F30A7">
-                            <tspan x="47.7740004" y="33">Rethinking the </tspan>
+                        <text id="Rethinking-Class-Cou" fill="#6F30A7">
+                            <tspan x="32.7600004" y="33">Rethinking Class </tspan>
                             <tspan x="18.3250004" y="83">Course Navigation </tspan>
                         </text>
-                        <text id="Rethinking-the-Cours" fill="#FFFFFF">
-                            <tspan x="45.7740004" y="32">Rethinking the </tspan>
+                        <text id="Rethinking-Class-Cou" fill="#FFFFFF">
+                            <tspan x="30.7600004" y="32">Rethinking Class </tspan>
                             <tspan x="16.3250004" y="82">Course Navigation </tspan>
                         </text>
                     </g>
-                </g>
-                <g id="Group-Copy-4" transform="translate(458.000000, 113.000000)">
-                    <g id="Group-3"></g>
                 </g>
                 <g id="Group-4-Copy-2" transform="translate(431.000000, 262.000000)">
                     <rect id="Rectangle-2" fill="#BF9AE1" x="0" y="0" width="379" height="63.3684211" rx="28"></rect>
