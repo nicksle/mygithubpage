@@ -175,6 +175,7 @@ nav {
   opacity: 0.5;
 }
 
+
 #cal{
   color: #447DE2;
 }
@@ -214,6 +215,8 @@ nav {
     
 #down {
   -webkit-animation: bounce 2s infinite;
+	margin-top: 80px;
+    
 }
 
 /*Project Grid  */
