@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/* GLOBAL */
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body, html { overflow-x: hidden; }
+
+p {
+    font-size: 12pt; 
+    line-height: 27px;
+    font-weight: 100;
+}
+
+b {
+    font-weight: 600;
+}
+
+
+footer li {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+
+#blue {
+    color: rgba(1,63,163,100);
+}
+
+#yellow {
+    color: rgba(255,210,31,100);
+}
+
+#green {
+    color: rgba(79,190,92,100)
+}
+
+#pink {
+    color: rgba(237,192,177,100);
+}
+
+/*NAVIGATION*/
+.navbar {
+    margin-bottom:8px;
+    margin-top:8px; 
+    border: 1px solid transparent;
+}
+
+.navadjust {
+    margin-right: 200px;
+    margin-left: ;
+}
+
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba();
+    margin-left: 200px;
+    font-size: 14pt;
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14pt;
+    background-color: white;
+
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(147, 164, 175, 1);
+    background-color: rgba(224, 62, 62, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(96, 150, 186, 1);
+    background-color: rgba(231, 231, 231, 0);
+    font-weight: 600;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #e8f7ff;
+}
+
+
+/*HEADER*/
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('../images/Splash%20Image.svg');
+  background-size: cover;
+  background-position: center;
+  height: 660px;
+
+}
+
+.jumbotron .img-responsive {
+    display:block;
+    max-width: 35%;
+    min-width: 350px;
+    max-height: auto;
+}
+
+.jumbotron p {
+    font-size: 14pt;
+}
+
+.jumbotron h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 
+}
+
+jumbotron h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.barmargin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.downbuttonmargin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.title {
+    margin-top: 20px;
+}
+
+.titlemargin {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.titletext {
+    font-size: 20pt; 
+    line-height: 40px;
+    font-weight: 100;
+    
+}
+
+/*CONTENT*/
+
+.casestudymargin {
+    margin-top: 32px;
+
+}
+
+.smbxdrop {
+    box-shadow: 3px 3px 15px rgba(141,115,0,0.59);
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.smbxdrop:hover {
+    box-shadow: 3px 3px 15px rgba(141,115,0,0.2);  
+}
+
+.wegrowdrop {
+    box-shadow: 3px 3px 15px rgba(11,103,22,0.59);
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.wegrowdrop:hover {
+    box-shadow: 3px 3px 15px rgba(11,103,22,0.2);  
+}
+
+/*FOOTER*/
+
+.copyright {
+    font-size: 14px;
+}
+
+.crspace {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+/*Icons*/
+
+.fa {
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Linkedin */
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
