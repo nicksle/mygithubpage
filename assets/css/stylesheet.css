@@ -70,6 +70,7 @@ nav {
 }
 
 .navbar {
+		font-family: "Circular-Medium";
     position: relative;
     display: -ms-flexbox;
     display: flex;
