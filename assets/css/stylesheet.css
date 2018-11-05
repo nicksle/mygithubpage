@@ -432,6 +432,60 @@ footer {
 }
 
 
+
+/*Case Study*/
+/*Case Study*/
+.cssplash{
+  position: relative;
+  font-size: 32px;
+  line-height: 60px;
+  text-align: center;
+  width: 740px;
+  margin: 70px auto;
+  color: #3B3B3B;
+  overflow: hidden;
+}
+
+.cs-heading {
+  font-size: 32px;
+  margin: 20px 0px 5px 0px;
+}
+
+.cs-subheading {
+  font-size: 16px;
+  color: darkgrey;
+}
+
+.cs-content {
+  position: relative;
+  line-height: 60px;
+  text-align: left;
+  width: 800px;
+  margin: 60px auto;
+  color: #3B3B3B;
+  overflow: hidden;
+}
+
+.cs-title {
+  font-size: 24px;
+}
+
+.cs-subtitle {
+  font-family: "Circular-Medium";
+  font-size: 18px;
+  color: darkgray;
+}
+
+.cs-text {
+  line-height: 36px;
+  text-align: left;
+}
+
+cs-image {
+  width: 100%;
+  margin: 0px 5px 0px 5px;
+}
+
 @media (max-width: 900px) {
 .card {
     margin: 10px 5px 10px 5px;
@@ -450,7 +504,41 @@ footer {
 }
 
 @media (max-width: 600px) {
-  .intro, .profile, .about-me{
+  .intro, .profile, .about-me, .cssplash, .cs-content{
+    width: 90%;
+  }
+
+  .profile {
+    height: 100%;
+    margin-bottom: 32px;
+  }
+
+}
+
+@media (max-width: 450px) {
+
+}
+
+
+@media (max-width: 900px) {
+.card {
+    margin: 10px 5px 10px 5px;
+  }
+  
+  .intro {
+    /*width: 95%;*/
+    font-size: 24px;
+    line-height: 48px;
+  }
+
+}
+
+@media (max-width: 700px) {
+
+}
+
+@media (max-width: 600px) {
+  .intro, .profile, .about-me, .cssplash, .cs-content{
     width: 90%;
   }
 
