@@ -432,8 +432,8 @@ footer {
 }
 
 
-/*Case Study*/
 
+/*Case Study*/
 .cssplash{
   position: relative;
   font-size: 32px;
@@ -480,9 +480,22 @@ footer {
   text-align: left;
 }
 
-cs-image {
+.cs-image {
   width: 100%;
   margin: 0px 5px 0px 5px;
+}
+
+.cs-mock {
+  margin: 60px 12% 60px 12%;
+} 
+
+.img-center-parent {
+  display: flex;
+
+}
+.img-center {
+  width: 100%;
+  margin: auto;
 }
 
 @media (max-width: 900px) {
