@@ -16,8 +16,8 @@
 
 body {
   font-family: "Circular-Book";
-	/*background-color: #013FA3;*/
-	color: black;
+	background-color: #013FA3;
+	color: white;
 }
 
 .bg-color-nav {
@@ -30,12 +30,8 @@ body {
 	padding: 60px;
 }
 
-.bg-color-nav-ab {
-	background-color: #013FA3;
-}
-
-.bg-color-about {
-	background-color: #013FA3;
+ul {
+	list-style-type: none;
 }
 
 /* Nav Bar */
@@ -66,7 +62,7 @@ body {
 }
 
 .nav-item-cs {
-	font-family: "Circular-Book";
+	font-family: "Circular-Book"
   margin: 0px 0px 0px 16px;
 	color:#013FA3;
 }
@@ -80,8 +76,8 @@ body {
 }
 
 .nav-item-cs:hover {
-	color:#EBC7BB;
-} 
+	color: 
+}
 
 .active {
 	font-family: "Circular-Bold";
