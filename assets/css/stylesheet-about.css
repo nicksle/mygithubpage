@@ -149,13 +149,13 @@ ul {
 }
 
 .side-bounce {
-	animation: bounce .90s infinite alternate;
-  -webkit-animation: bounce .90s infinite alternate;
+	animation: bounce 1.15s infinite alternate;
+  -webkit-animation: bounce 1.15s infinite alternate;
 }
 
 .side-bounce2 {
 	animation: bounce 1.25s infinite alternate;
-  -webkit-animation: bounce 1.25s infinite alternate;
+  -webkit-animation: bounce 1.2s infinite alternate;
 }
 
 .side-bounce2 {
