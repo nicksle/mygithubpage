@@ -148,6 +148,21 @@ ul {
   -webkit-animation: bounce 1s infinite alternate;
 }
 
+.side-bounce {
+	animation: bounce .90s infinite alternate;
+  -webkit-animation: bounce .90s infinite alternate;
+}
+
+.side-bounce2 {
+	animation: bounce 1.25s infinite alternate;
+  -webkit-animation: bounce 1.25s infinite alternate;
+}
+
+.side-bounce2 {
+	animation: bounce 1.10s infinite alternate;
+  -webkit-animation: bounce 1.10s infinite alternate;
+}
+
 .zig-zag {
 	width: 20%;
 	margin: 28px 0px 28px 0px;
@@ -523,6 +538,25 @@ footer {
     transform: translateY(-15px);
   }
 }
+
+/*Side Bounce*/
+@keyframes bounce {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-15px);
+  }
+}
+
 
 
 /*Fade In*/
