@@ -345,6 +345,7 @@ footer {
 	height: 280px;
 	right: 0;
 	overflow: hidden;
+	opacity: .90;
 }
 
 .about-img2 {
@@ -355,6 +356,7 @@ footer {
 	right: 0;
 	overflow: hidden;
 	margin-top: 304px;
+	opacity: .90;
 }
 
 .about-img3 {
@@ -365,6 +367,7 @@ footer {
 	right: 0;
 	overflow: hidden;
 	margin-top: 608px;
+	opacity: .90;
 }
 
 .about-heading {
