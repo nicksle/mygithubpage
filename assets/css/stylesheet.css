@@ -257,18 +257,6 @@ body {
     box-shadow: 1px 2px #112D56;
 }
 
-.btn-venmo {
-    font-family: "Circular-Medium";
-    color: #133142;
-    background-color: #87AFC6;
-}
-
-.btn-venmo:hover {
-    color: #3D95CE;
-    background-color: #FAFAFA;
-    box-shadow: 1px 2px #0C6472;
-}
-
 #wegrow {
     background-color:#4FBF5C;
 }
@@ -311,8 +299,7 @@ body {
 }
 
 #venmo {
-  color: #3D95CE;
-  background-color: #3D95CE;
+	color: #3D95CE;
 }
 
 footer {
