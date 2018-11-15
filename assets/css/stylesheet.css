@@ -220,17 +220,6 @@ body {
     box-shadow: 1px 2px #266B2B;
 }
 
-.btn-bcourse {
-    font-family: "Circular-Medium";
-    color: #0E0716;
-    background-color:#C09AE8;
-}
-
-.btn-bcourse:hover {
-    color:#9744E2;
-    background-color: #FAFAFA;
-    box-shadow: 1px 2px #6431AD;
-}
 
 .btn-smbx {
     font-family: "Circular-Medium";
@@ -255,6 +244,26 @@ body {
     color: #447DE2;
     background-color:#FAFAFA;
     box-shadow: 1px 2px #112D56;
+}
+
+.btn-venmo {
+    font-family: "Circular-Medium";
+    color: #133142;
+    background-color: #87AFC6;
+}
+
+.btn-venmo:hover {
+    color: #3D95CE;
+    background-color: #FAFAFA;
+    box-shadow: 1px 2px #0C6472;
+}
+
+
+#venmo {
+	color: #3D95CE;
+}
+#venmo-card {
+	background-color:#3D95CE;
 }
 
 #wegrow {
@@ -298,9 +307,6 @@ body {
   color: #FFF4B3;
 }
 
-#venmo {
-	color: #3D95CE;
-}
 
 footer {
     margin: 100px 0px 80px 0px;
