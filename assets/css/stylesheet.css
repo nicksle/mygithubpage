@@ -299,7 +299,11 @@ body {
 }
 
 #venmo {
-	color: #3D95CE;
+  color: #3D95CE;
+}
+
+#venmo-card {
+  background-color:#3D95CE;
 }
 
 footer {
