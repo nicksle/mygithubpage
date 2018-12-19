@@ -206,6 +206,24 @@ body {
     color: white;
 }
 
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: auto;
+    line-height: 1.5;
+    border-radius: .50rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
 .btn-wegrow {
     font-family: "Circular-Medium";
     color: #0C1C0E;
@@ -257,8 +275,36 @@ body {
     box-shadow: 1px 2px #112D56;
 }
 
+.btn-venmo {
+    font-family: "Circular-Medium";
+    color: #133142;
+    background-color: #87AFC6;
+}
+
+.btn-venmo:hover {
+    color: #3D95CE;
+    background-color: #FAFAFA;
+    box-shadow: 1px 2px #0C6472;
+}
+
+.btn-hiven {
+    font-family: "Circular-Medium";
+    color: #133142;
+    background-color: #CB83FF;
+}
+
+.btn-hiven:hover {
+    color: #7A00D3;
+    background-color: #FAFAFA;
+    box-shadow: 1px 2px #482E5C;
+}
+
 #wegrow {
     background-color:#4FBF5C;
+}
+
+#bcourse {
+    background-color: #9744E2;
 }
 
 #smbx {
@@ -269,9 +315,29 @@ body {
     background-color: #447DE2;
 }
 
+#venmo {
+	color: #3D95CE;
+}
+
+#venmo-card {
+	background-color:#3D95CE;
+}
+
+#hiven {
+	color: #7A00D3;
+}
+
+#hiven-card {
+	background-color: #7A00D3;
+}
+
 #wegrow-text {
     color: ;
     text-shadow: ;
+}
+
+#bcourse-text {
+    text-shadow: 2px 2px #6F30A7;
 }
 
 #smbx-text {
@@ -279,7 +345,7 @@ body {
 }
 
 #helix-text {
-	;
+    text-shadow: 2px 2px #224C98;
 }
 
 #pink {
@@ -298,13 +364,10 @@ body {
   color: #FFF4B3;
 }
 
-#venmo {
-	color: #3D95CE;
+footer {
+    margin: 40px 0px 40px 0px;
 }
 
-footer {
-    margin: 100px 0px 80px 0px;
-}
 
 /*About Page*/
 
