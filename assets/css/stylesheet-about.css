@@ -308,7 +308,9 @@ ul {
 }
 
 #white {
+	transition: color 0.5s ease;
 	color: white;
+	text-decoration: none;
 }
 
 #white:hover {
