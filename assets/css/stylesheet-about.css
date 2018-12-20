@@ -168,6 +168,10 @@ ul {
 	margin: 28px 0px 28px 0px;
 }
 
+#a-pd {
+	text-decoration: none;
+	color: white;
+}
 
 /*Work*/
 
@@ -303,8 +307,20 @@ ul {
   color: #FFF4B3;
 }
 
+#white {
+	color: white;
+}
+
+#white:hover {
+	color: #EBC7BB;
+}
+
 footer {
-    margin: 100px 0px 80px 0px;
+    margin: 80px 0px 80px 0px;
+}
+
+#ftr-spc {
+	padding: 10px 0px 0px 0px;
 }
 
 /*About Page*/

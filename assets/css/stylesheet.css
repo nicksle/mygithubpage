@@ -58,6 +58,7 @@ body {
 }
 
 .nav-item {
+	transition: color 0.5s ease;
 	font-family: "Circular-Book";
   margin: 0px 0px 0px 16px;
 	color:#013FA3;
@@ -70,6 +71,7 @@ body {
 }
 
 .nav-item-cs {
+	transition: color 0.5s ease;
 	font-family: "Circular-Book";
   margin: 0px 0px 0px 16px;
 	color:#013FA3;
@@ -163,6 +165,15 @@ body {
 	margin: 28px 0px 28px 0px;
 }
 
+#a-pd {
+	transition: color 0.5s ease;
+	text-decoration: none;
+	color: white;
+}
+
+#a-pd:hover {
+	color: #003FA3;
+}
 
 /*Work*/
 
@@ -225,10 +236,12 @@ body {
 }
 
 .btn-wegrow {
-    font-family: "Circular-Medium";
-    color: #0C1C0E;
-    background-color: #8FCC93;
-    border-color: none;
+	transition: color 0.5s ease;
+	transition: background 0.3s ease;
+  font-family: "Circular-Medium";
+  color: #0C1C0E;
+  background-color: #8FCC93;
+  border-color: none;
 }
 
 .btn-wegrow:hover {
@@ -236,18 +249,6 @@ body {
     background-color: #FAFAFA;
     border-color: none;
     box-shadow: 1px 2px #266B2B;
-}
-
-.btn-bcourse {
-    font-family: "Circular-Medium";
-    color: #0E0716;
-    background-color:#C09AE8;
-}
-
-.btn-bcourse:hover {
-    color:#9744E2;
-    background-color: #FAFAFA;
-    box-shadow: 1px 2px #6431AD;
 }
 
 .btn-smbx {
@@ -264,9 +265,11 @@ body {
 }
 
 .btn-helix {
-    font-family: "Circular-Medium";
-    color: #0A121E;
-    background-color:#8DAAD3;
+	transition: color 0.5s ease;
+	transition: background 0.3s ease;
+  font-family: "Circular-Medium";
+  color: #0A121E;
+  background-color:#8DAAD3;
 }
 
 .btn-helix:hover {
@@ -276,9 +279,11 @@ body {
 }
 
 .btn-venmo {
-    font-family: "Circular-Medium";
-    color: #133142;
-    background-color: #87AFC6;
+	transition: color 0.5s ease;
+	transition: background 0.3s ease;
+  font-family: "Circular-Medium";
+  color: #133142;
+  background-color: #87AFC6;
 }
 
 .btn-venmo:hover {
@@ -323,6 +328,10 @@ body {
 	background-color:#3D95CE;
 }
 
+#venmo-mark {
+	background-color:#ADE1F7;
+}
+
 #hiven {
 	color: #7A00D3;
 }
@@ -364,8 +373,31 @@ body {
   color: #FFF4B3;
 }
 
+#dribbble {
+	transition: color 0.5s ease;
+	color: #EB76A3;
+	text-decoration: none;
+}
+
+#dribbble:hover {
+	color:#FDDAE7;
+}
+
+#twitter {
+	transition: color 0.5s ease;
+	color: #1da1f2;
+	text-decoration: none;
+}
+
+#twitter:hover {
+	color: #ADE0FF;
+}
+
 footer {
-    margin: 40px 0px 40px 0px;
+    margin: 60px 0px 80px 0px;
+}
+#ftr-spc {
+	padding: 10px 0px 0px 0px;
 }
 
 
