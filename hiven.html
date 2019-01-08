@@ -10,7 +10,10 @@
   gtag('config', 'GA_TRACKING_ID');
 	</script>
 		<link rel="icon" type="image/png" href="images/logo.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -65,9 +68,19 @@
             <b>Background</b>
           </div>
           <div class="cs-text">
-            <p>Stumbling around the web, I found an interesting Berkeley based service that allows users to find or host co-working spaces within their personal homes.  I found this concept particularly intriguing as it seems very akin to popular services such as Uber or Airbnb, utilizing the internet and the current “gig economy” to allow users to discover new co-working spaces besides local coffee shops, public buildings or their personal homes.  After exploring the site and the product, I was inspired to deconstruct and redesign the Hīven desktop experience.  Additionally, I found the current branding of the site to be interesting and wanted to develop it further.</p>
-      </div>
-    </div>
+            <p>Stumbling around the web, I found an interesting Berkeley based service that allows users to find or host co-working spaces within their personal homes.  I found this concept particularly intriguing as it seems very akin to popular services such as Uber or Airbnb, utilizing the internet and the current “gig economy” to allow users to discover new co-working spaces besides local coffee shops, public buildings or their personal homes.  After exploring the site and the product, I was inspired to deconstruct and redesign the Hīven desktop experience.  Additionally, I found the current branding of the site to be interesting and wanted to develop it further.  <b>Note: During the write up of this case study, Hiven has rebranded to COBO and changed many aspects of their product.  As a result, I was unable to collect screenrecords of the site that was used for the user interviews and user testing.</b></p>
+					</div>
+					<div class="cs-subtitle" id="hiven">Identifying Limitations and Design Constraints </div>
+					<div class="cs-text">
+						<p>In an ideal world, I would have a few dozen interviewees lined up to participate, comprehensive user data sorted out for me, and a small team to bounce ideas around with; unfortunately we’re still working on achieving an ideal world.  So instead I want to highlight <mark id="hiven-mark">limitations that effected my design abilities for this practice</mark>:</p>
+						<ul>
+							<li>Convincing “test subjects” to interact with the product fully (not just complete a walk through of the desktop application) was unlikely</li>
+							<li>Having a wide and varied pool  of interviewees and test subjects</li>
+							<li>A lack of quantitative data of users who have already used the Hiven product, unprompted by me</li>
+						</ul>
+					</div>
+			</div>
+	</div>
   
   	<div class="container">
         <div class="cs-content">
@@ -77,9 +90,14 @@
           <div class="cs-text">
             <p>Hīven is still in a relatively early stage of production, thus the main challenge of design practice was to: </p>
 						<br>
-						<h4 class="center" id="hiven">Conduct research to understand </h4>
+						<h4 class="center" id="hiven">Create an understanding of users’ needs and interactions with the Hiven desktop application; and using this information, redesign the product to be more accessible to users.</h4>
 						<br>
-						<p>Fill Text</p>
+						<p>Secondary goals for this design practice were to:</p>
+						<ul>
+							<li>create a strong and recognizable branding for Hiven</li>
+							<li>understand how microinteractions affect user experience </li>
+							<li>implement human factor practices learned from previous classes</li>
+						</ul>
             </div>
       </div>
     </div>
@@ -90,69 +108,350 @@
           <b>Research + Insights</b>
         </div>
           <div class="cs-text">
-						<p>A core objective of this design practice is to develop an understanding of what users are looking for from Hīven, and to a deeper extent than just “a new co-working space”.  I sought to understand what users wanted and needed from a co-working space, and how [home feeling] differentiation itself from cafés and other work places.  Additionally, I wanted to conduct testing to see how users responded to the current Hīven desktop application and if any UI improvements could be made.  </p>
+						<p>A core objective of this design practice is to develop an understanding of what users are looking for from Hīven, and to a deeper extent than just “a new co-working space”.  I sought to <mark id="hiven-mark">understand what users wanted and needed from a co-working space, and how house experience differentiated itself from cafés and other work places</mark>.  Additionally, I wanted to conduct testing to see how users responded to the current Hīven desktop application and if any UI improvements could be made.  A <mark id="hiven-mark">large barrier to my research process was not having access to Hīven's user research or quantitive data</mark>, making it hard to collect user data of people who have used Hiven unprompted by me.</p>
 						<ul>
-							<li>surveys — these provided demographic information such as what establishments were most commonly used and what </li>
-							<li>user interviews — focusing on how individuals approached finding new work places, and what attracted them to these places</li>
-							<li>user testing — of the current Hīven desktop application, followed up by interviews to provide understanding of their pain points and things they enjoy</li>
+							<li>surveys — these <mark id="hiven-mark">provided demographic information</mark> such as what establishments were most commonly used and what actions users took there</li>
+							<li>user interviews — focusing on how <mark id="hiven-mark">individuals approached finding new work places</mark>, and what attracted them to these places</li>
+							<li>user testing — of the current Hīven desktop application, followed up by interviews to <mark id="hiven-mark">provide understanding of their pain points and things they enjoy</mark></li>
 						</ul>
 					
 						
 						<div class="cs-subtitle" id="hiven">Survey</div>
-						<p>In my opinion, the Venmo dashboard is poorly designed in terms of reaching both the company’s goals as well as fulfilling the user’s goals.  The current dashboard is taken up by a social media-esque timeline that a majority of users do not interact with, and pushes the product’s main feature (funds payment and request) into a small icon in the top right corner.</p>
-						<img src="images/" class="img-fluid cs-image">
-						<p>To better accomplish both the company's and user’s goals the dashboard should:</p>
-						<ul>
-							<li>encourage users to send a payment or request by implementing a more distinguishable call to action button</li>
-							<li>have more relevant information upfront</li>
-						</ul>
-						<img src="images/" class="img-fluid cs-image">
+						<p>Not having access to Hīven’s user data, I decided to create and distribute a survey to get an understanding of who the user demographic is, and how they interact with different workspaces.  After about 2 weeks, I was able to collect roughly 20 responses.  The responses varied, but considering that the main mode of distribution was word of mouth through my school friends, <mark id="hiven-mark">I noted a particular skew towards the needs of college student</mark>.  If you wish to <a href=" https://goo.gl/forms/3z7DBDfYNCOEN4v03">fill out the survey</a>, I’d be delighted to have more responses!</p>
+						<img src="" class="img-fluid">
 
 						<div class="cs-subtitle" id="hiven">User Interviews</div>
-						<p>The response I got for user interviews was much smaller than the surveys, and the population could be considered more biased.  To find participants, I first asked my friends and got a somewhat decent response, with 8 people offering their time.  This demographic was interesting because they were primarily students with access to the university’s plethora of libraries; a resource they noted was poor, but was easily accessible and thus was their primary location of working or studying.  The second group of interviewees were a handful of random coffeeshop goers whose coffee I offered to purchase in return for a quick interview.</p>
+						<p>The response I got for user interviews was much smaller than the surveys, and the population could be considered more biased.  To find participants, I first asked <mark id="hiven-mark">my friends</mark> and got a somewhat decent response, with 8 people offering their time.  This demographic was interesting because they were primarily students with access to the university’s plethora of libraries; a resource they noted was poor, but was easily accessible and thus was their primary location of working or studying.  The second group of interviewees were a <mark id="hiven-mark">handful of random coffeeshop goers</mark> whose coffee I offered to purchase in return for a quick interview.</p>
+						<p>Having the user demographic information from the survey, and the personal experience surrounding user interactions with workspaces from the user interviews, I could create personas that acted as more tangible users whose needs I could design for.  The three personas that arose from the research were:</p>
 						<ul>
-							<li>difficulty for first time users to find [the pay/request button]</li>
-							<li>finding and selecting contacts to pay left user’s feeling uncertain</li>
-							<li>the pay/request buttons having no differentiating features, causing users to mistakenly choose the wrong one</li>
+							<li>The Student 👩🏻‍🎓
+								<ul>
+									<li><mark id="hiven-mark">Utilizes the university library</mark>, but notes that they are over crowded, dirty and although <mark id="hiven-mark">less distracting than working at their apartment, distracting nonetheless</mark></li>
+								</ul>
+							</li>
+							<li>The Socialite 👭 
+								<ul>
+									<li>Is able to work from home, but <mark id="hiven-mark">appreciates the feeling of community,</mark> that their local coffee shop provides</li>
+								</ul>
+							</li>
+							<li>The Opportunist  🕵🏻 
+								<ul>
+									<li>Is often about town with lots of preplanned events and appreciates <mark id="hiven-mark">workspaces close to their needed location</mark></li>
+								</ul>
+							</li>
 						</ul>
-						<img src="images/venmo-og-payment.svg" class="img-fluid cs-image">
+						<img src="images/hiven_personas.svg" class="img-fluid">
 						
-						<p>Additionally, it was pointed out that one of the most frequent use cases for Venmo is for groups to split one large dinner bill.  The current pay flow works fine in this scenario as long as the bill is being divided evenly, but if item prices differ, the Venmo payment flow is very inefficient.  Surprisingly Venmo doesn’t offer any in-app solution to make this user flow easier and as an alternative, may users will download a secondary app that allows them to scan a receipt and calculate the total (including tax and tip) per person.</p>
-						<p>When ideating ways to improve the payment user flow, I wanted to address the insights and painpoints that I observed from the quick interviews I did.  Additionally, I wanted to tackle the issues of the user flow as a whole, and not the specific case of bill splitting; although the core pain points addressed were in response to it [bill splitting]. They were the following:</p>
-						<div class= "cs-split">
-						<ul>
-							<li>users occasionally misclick pay instead of request — leading to overdrawn bank accounts
-								<ul>
-									<li>making the payment or request flows more distinct from each other</li>
-								</ul>
-							</li>
-							<li>users find it annoying that they have to fill out the “What is this for” field, often inputting something unrelated or just one quick emoji
-								<ul>
-									<li>reduce the burden put on required user input fields, by making it optional and having it take less screen space</li>
-								</ul>
-							</li>
-							<li>users are frustrated when using Venmo to split a bill (unless everyone has an order of the same amount) because they have to go through the same user flow multiple times
-								<ul>
-									<li>create seperated cards representing different recipients on the same screen, allowing users to adjust the amount per recipient/</li>
-								</ul>
-							</li>
-						</ul>
+						<div class="cs-subtitle" id="hiven">User Testing</div>
+						<p>With and understanding of what users need from a workspace, I conducted user testing of Hīven’s desktop application to deduce how well it performs at finding users their ideal workspace home away from home.  As a disclaimer, I was unable to find users willing to undergo the full Hīven experience; the user testing that I conducted was limited to interaction with the desktop application and booking of a “Hive” workplace, but users never took steps beyond that.  Additionally, the testing group consisted of close friends of mine who offered to test the product and allowed me to interview them afterwards.</p>
+						<img src="" class="img-fluid">
+				</div>
+			</div>
+	</div>
+			
+    <div class="container">
+      <div class="animate-in cs-content">
+        <div class="cs-title">
+          <b>Finding Design Opportunities</b>
+        </div>
+				<p>[Fill Text]</p>
+          <div class="cs-text">
+						<div class="cs-subtitle" id="">Design Opportunity 1:</div>
+						<div class="cs-subtitle-hiven" id="hiven">Reduce the barriers preventing users from finding and booking a “hive” workspace</div>
+						<p>When looking at Hiven’s current landing page, it is difficult for new users to find a link to explore the actual web application.  What users are instead exposed to, are “call to actions” to either log in or sign up.  While it is not bad to have users sign up before completing an action that requires and account </p>
+						
+						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  					</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img class="d-block w-100" src="images/hiven_userflow-old.svg" alt="First slide">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/hiven_userflow_oldbar.svg" alt="Second slide">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/hiven_userflow_oldnav.svg" alt="Third slide">
+								</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
 						</div>
-						<img src="images/venmo_pay_screens.svg" class="img-fluid cs-image">
-          </div>
-      </div>
-    </div>
-  
-  	<div class="container">
-        <div class="cs-content">
-          <div class="cs-title">
-            <b>Conclusion and Reflection</b>
+						
+
+						
+						<div class="cs-subtitle" id="">Design Opportunity 2:</div>
+						<div class="cs-subtitle-hiven" id="hiven">The current workspace user experience is an inefficient process</div>
+						<p>The current workspace search screen <mark id="hiven-mark">confronts the user with large loads of information and does not provide an efficient way to process all of it</mark>.  When the user arrives at the page, they are immediately shown a map with highlighted locations and a list of different workplaces.  Users are <mark id="hiven-mark">not prompted to input an address, and as a result often start viewing the different hives</mark> only to realize that the entries they have selected <mark id="hiven-mark">are not within their desired location or are not available on their preferred days.</mark></p>
+						<video width="800px" height="auto" class="img-fluid cs-img dropshadow"autoplay muted loop>
+							<source src="images/hiven_search_desop.mp4" type="video/mp4">
+						</video>
+						<p>Additionally, the map provided on the search page can act as a distraction, <mark id="hiven-mark">showing locations but not having a correlation to the search entries</mark>.  It is up to the user to deduce that the correlation between the map locations and the entries are numerical.</p>
+						<p><mark id="hiven-mark">Navigation through the different results is also an issue</mark>.  The <mark id="hiven-mark">placards for the search entry do not provide much information</mark> besides the name of location and a picture.  This requires users to open up the full information page to get even a semblance of what the workspace offers.  This process can be time consuming as users must either: </p>
+						<ul>
+							<li>navigate back and forth from the two pages using the back/forward keys or</li>
+							<li>open multiple tabs at once and navigate through them</li>
+						</ul>
+
+						<div class="cs-subtitle" id="">Design Opportunity 3:</div>
+						<div class="cs-subtitle-hiven" id="hiven">Improve post-booking host/hosted interactions</div>
+						<p>From the user interviews, it seems that a large deciding factor in choosing a workspace is how personable the experience is and if forging a compatible co-working environment is possible.  Hiven’s ability of allowing users to scout out [] should put it at an advantage compared to quiet libraries or sporadic coffee shops; but unfortunately there is no active feature of implementation that allows users to interact with host prior to the booked date.  Instead, when users are finished confirming their workspace, they do not interact with the host until the time and day of the booking, this leads to days of blank space and anticipation.</p>
+						<p>Imagine showing up at a stranger’s house with absolutely no prior interactions, or going into your workplace and not interacting with co-workers.  Even if they're expecting you, there is bound to be some awkwardness.  This usually isn't an issue for other “material sharing platforms” like Uber or Airbnb as car rides usually take between 10-30 minutes, and home owners are not present during the guest’s stay.  But in a co-working space, its usually a good idea to be comfortable with the person that you will be sharing the space with for a few hours.</p>
+						
+				</div>
+			</div>
+			</div>
+			
+
+			<div class="container">
+				<div class="cs-content">
+					<div class="cs-title">
+            <b>Defining Design Goals</b>
           </div>
           <div class="cs-text">
-            <p></p>
-            </div>
+						<p>Based off of my analysis and assumptions, below are the following goals I am striving for with my redesign:</p>
+						<ul>
+							<li>Simplify the user flow from the landing page to booking a hive; specifically, reducing the barriers that would persuade users to click elsewhere</li>
+							<li>Allow users to easily to explore and search for their preferred hive; showing a necessary information upfront and reducing redirection</li>
+							<li>Create a more personal experience, with increased interaction with hive hosts before the appointed time</li>
+						</ul>
+           </div>
+				</div>
+			</div>
+			
+			<div class="container">
+        <div class="cs-content">
+          <div class="cs-title">
+            <b>The Design Process</b>
+          </div>
+          <div class="cs-text">
+            <p>[Fill Text]</p>
+          </div>
+					<div class="cs-subtitle" id="hiven">A Frictionless User Flow</div>
+					<div class="cs-text">
+						<p>As mentioned earlier, the desktop application’s current user flow has many barriers preventing new users from easily finding nearby workspaces that Hiven can provide.  The user flow requires users to create an account and log in before viewing available workspaces, dissuading users from using the product.  Additionally, the redirection navigation for workspace search is time consuming and inefficient.</p>
+						<img src="images/hiven_userflow-old.svg" class="img-fluid cs-img">
+						<p>For the revised user flow, I implemented a flow that has more guided action.  This flow prompts users to complete more required actions, but results in the user being exposed to more relevant results; thus reducing the active effort required.  In this case, users only really need to identify if they like the workspace environment as the location and dates have already been filtered.  Additionally, the revised flow exposes users to the “book workspace” action in a more accessible way, by not requiring a sign up prior to searching for a workspace.  Instead, users will be prompted to sign up or log in after they have found a suitable workspace.</p>
+						<img src="images/hiven_userflow_rev.svg" class="img-fluid">
+					</div>
+
+					
+					<div class="cs-subtitle" id="hiven">Simplifying Search: Early Wireframes</div>
+					<div class="cs-text">
+						<p>Having identified earlier that the issue with the current workplace search page was having too much information that confused users while also not providing information important to decision making; I set off to deduce what information the search entry cards should display.  They included:</p>
+						<ul>
+							<li>Availability</li>
+							<li>Address</li>
+							<li>Distance from Set Location</li>
+							<li>Image(s)</li>
+						</ul>
+						<p>I made quick sketches that were translated into digital mockups.  It was important for these cards to take into account space and the visual representation of content as to not confuse users.  Taking up too much space would unnecessarily lengthen the users’ search process, while the use of abstract representation will hinder the users’ decision making.</p>
+						
+						<div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel1">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+    					<li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+    					<li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+  					</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img class="d-block w-100" src="images/hiven_cards_all.svg" alt="First slide">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/hiven_cards_smol.svg" alt="Second slide">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/hiven_cards_large.svg" alt="Third slide">
+								</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+						
+						<p>Looking at the current user flow, the workplaces search process implements too much redirection and places too much burden on users to identify if the workplaces match their requirements.  As a solution to these issues, I mocked up new layouts that consolidated all the actions onto one webpage.</p>
+						<img>
+						<p>The dual column layout allows users to quickly view and switch between different workspaces with out needing to navigate back and forth between two different web pages or opening up multiple tabs.  The ability to mark locations as favorites ensures that users won't forget which workspaces were top contenders.  Furthermore, the addition of a filter option ensured that users who had specific amenities in mind didn't waste time looking at irrelevant workspaces.</p>
+						<img src="images/hiven_dual_column.png" class="img-fluid cs-img dropshadow">
+					</div>
+					
+					<div class="cs-subtitle" id="hiven">Making it Personal: Early Wireframes</div>
+					<div class="cs-text">
+						<p>When exploring the design opportunity of creating a post-booking experience, it was identified that a personal touch was missing, users were just left waiting until the day of their booking before being exposed to who their host would be.  The goal of the post-booking interaction isn’t only to start a connection between the host and user, but to also allowing early contact to flesh out details before the day of the booking.  Drawing inspiration from Uber’s post booking interactions, I decided that some important aspects that could act as conversation starters between the two parties are:</p>
+						<ul>
+							<li>Star signs</li>
+							<li>Favorite music</li>
+							<li>Favorite films</li>
+							<li>Various ice breakers</li>
+						</ul>
+						<p>Additionally, implementing a messaging system between the host and user allows a form of contact that the product is currently missing.  The messaging system would need to be more specific and extend to more than just small talk.  The messaging system would work as the following:</p>
+						<ul>
+							<li>automated message sent from the host:
+								<ul>
+									<li>introduces themselves</li>
+									<li>asks if the user would want anything to make their co-working experience better</li>
+								</ul>
+							</li>
+							<li>conversations are sorted by booking</li>
+							<li>allows users to make request that will appear in the booking page, such as:</li>
+							<ul>
+								<li>have coffee pot running 24/7</li>
+								<li>prefers to have seat cushions</li>
+								<li>noise sensative</li>
+								<li>prefers a spot near natural light</li>
+							</ul>
+						</ul>
+
+
+						<div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel1">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+    					<li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+    					<li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+  					</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<video class="d-block w-100" width="800px" height="600px" autoplay muted loop>
+										<source src="images/hiven_personal.mp4" type="video/mp4">
+						      </video>
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/hiven_personal_learn.svg" alt="Second slide">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/hiven_personal_message.svg" alt="Third slide">
+								</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
+
+
       </div>
     </div>
+
+	
+			<div class="container">
+				<div class="cs-content">
+					<div class="cs-title">
+            <b>Hi-Fidelity Mock Ups + Prototyping</b>
+          </div>
+					<div class="cs-text">
+						<p>Having finished the nitty-gritty design thinking and early stage mock-ups, its time to get to making </p>
+					</div>
+					<div class="cs-subtitle" id="hiven">Defining the Design Identity</div>
+          <div class="cs-text">
+						<p>One of the secondary goals for this design challenge was to create a design identity for the product Hiven.  To accomplish this I:</p>
+						<ul>
+							<li>chose a motif that would be incorporated throughout the product
+								<ul>
+									<li>in this case, the motif would be a hexagon shape with altered apperances</li>
+								</ul>
+							</li>
+							<li>sketch out logos that would fit the look and feel of the new Hiven product</li>
+							<li>create a style guide to use as </li>
+						</ul>
+						<img src="images/hiven_styleguide.svg" class="img-fluid cs-img dropshadow">
+          </div>
+					<div class="cs-subtitle" id="hiven">Landing on a Landing Page</div>
+          <div class="cs-text">
+						<p>From the previous analysis of the current landing page, I wanted the newly redesigned landing page to:</p>
+						<ul>
+							<li>have a primary call to action button that allowed users to explore the product's search feature</li>
+							<li>make logging-in and/or signing-up to be a secondary action</li>
+							<li>feel personable, with an intriguing tagline</li>
+						</ul>
+						<img src="images/Landing%20Page.svg" class="img-fluid dropshadow cs-img">
+          </div>
+					<div class="cs-subtitle" id="hiven">The New Workplace Search</div>
+          <div class="cs-text">
+						<p>The final mockup for the workplace search condensed what used to be a multiple page action into one webpage.  From the iterations and conducting a few MOST tests, I determined that at the best design practices were to:</p>
+						<ul>
+							<li>require uses to input their address and preferred dates before being shown any workplaces</li>
+							<li>implement a filter feature allowing users to specify which amenities where must haves</li>
+							<li>use a dual column design that displayed search result placards on the left and information on the right</li>
+						</ul>
+						
+						<video width="800px" height="auto" class="img-fluid cs-img dropshadow"autoplay muted loop>
+							<source src="images/hiven_proto_search.mp4" type="video/mp4">
+						</video>
+						
+						<p>With a new user flow, the new workspace search page functions must more efficiently.  The new process is as follows:</p>
+						<ol>
+							<li> &nbsp; Users input their address and mark their preferred dates and time.</li>
+							<li> &nbsp; A list of the workspaces appear, ranked by: location then by preferred date+time matches.</li>
+							<li> &nbsp; Users can additionally use the filter option to request specific amenities.</li>
+							<li> &nbsp; After selecting a desirable workspace, a more in-depth information page appears on the right-hand side of the page (instead of opening up a new page)</li>
+							<li> &nbsp; Users can scroll down the information page to find booking options, with their preferred date+times already filled out </li>
+							<li> &nbsp; After clicking the booking button, a confirmation pop up provides the user with the details of the book to ensure users understand what actions they are taking.</li>
+							<li> &nbsp; Once confirmed, users will be taken to the post-booking flow</li>
+						</ol>
+
+						<p>When designing the workspace information panel, I wanted to make sure that users were presented with key decision making information first.  Do address this, I made the following design solutions:</p>
+						<ul>
+							<li>have all availability listed at the top of the information page
+								<ul>
+									<li>allows users to plan ahead and book more dates than the ones they request earlier</li>
+								</ul>
+							</li>
+							<li>include important notices or caveats set by the hosts
+								<ul>
+									<li>for example, hosts may own pets that users may not be comfortable around</li>
+								</ul>
+							</li>
+							<li>a map view showing the location they inputted and the location of the workspace</li>
+						</ul>
+
+          </div>
+					<div class="cs-subtitle" id="hiven">A Personal Post-Booking Experience</div>
+          <div class="cs-text">
+						<p>From the previous analysis of the current landing page, I wanted the newly redesigned landing page to:</p>
+						<ul>
+							<li>have a primary call to action button that allowed users to explore the product's search feature</li>
+							<li>make logging-in and/or signing-up to be a secondary action</li>
+							<li>feel personable, with an intriguing tagline</li>
+						</ul>
+						<img >
+          </div>
+				</div>
+			</div>
+	
+			<div class="container">
+				<div class="cs-content">
+					<div class="cs-title">
+            <b>Conclusion + Reflection</b>
+          </div>
+          <div class="cs-text">
+						<p>Based off of my analysis and assumptions, below are the following goals I am striving for with my redesign:</p>
+						<ul>
+							<li>Simplify the user flow from the landing page to booking a hive; specifically, reducing the barriers that would persuade users to click elsewhere</li>
+							<li>Allow users to easily to explore and search for their preferred hive; showing a necessary information upfront and reducing redirection</li>
+							<li>Create a more personal experience, with increased interaction with hive hosts before the appointed time</li>
+						</ul>
+           </div>
+				</div>
+			</div>
 
 
   
@@ -161,7 +460,7 @@
 		<div class="container text-center">
 			<div class="row">
 				<div class="col center">
-					<h4 class="medium" id="">lets get creative — nicksle@berkeley.edu</h4>
+					<h4 class="medium"><a href="mailto:nicksle@berkeley.edu?subject=Let's Talk!" id="email">lets get creative — nicksle@berkeley.edu</a></h4>
 					<h4 class="medium" id="ftr-spc"><a href="https://dribbble.com/nicksle" id="dribbble">dribbble</a></h4>
 					<h4 class="medium" id="ftr-spc"><a href="https://dribbble.com/nicksle" id="twitter">twitter</a></h4>
         </div>
@@ -170,5 +469,4 @@
    </footer>
 
 
-
-</body>
+	</body>
