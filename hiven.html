@@ -39,7 +39,7 @@
    
 	<div class="container generic-FadeIn">
         <div class="cssplash">
-            <img class="d-block w-100 imag-responsive" src="images/venmo_splash.svg">  
+            <img class="d-block w-100 imag-responsive" src="images/hiven_splash.svg">  
         </div>
     </div>
     
@@ -56,7 +56,9 @@
 
 	<div class="container">
 		<div class="animate-in cs-content">
-			<img width="800px" height="600px" src="images/hiven-proto.gif" class="img-fluid">
+			<video width="800px" height="auto" class="img-fluid cs-img dropshadow"autoplay muted loop controls>
+				<source src="images/hiven_hifi_show.mp4" type="video/mp4">
+			</video>
 		</div>
 	</div>
 	
@@ -154,7 +156,7 @@
         <div class="cs-title">
           <b>Finding Design Opportunities</b>
         </div>
-				<p>[Fill Text]</p>
+				<p></p>
           <div class="cs-text">
 						<div class="cs-subtitle" id="">Design Opportunity 1:</div>
 						<div class="cs-subtitle-hiven" id="hiven">Reduce the barriers preventing users from finding and booking a “hive” workspace</div>
@@ -234,7 +236,8 @@
             <b>The Design Process</b>
           </div>
           <div class="cs-text">
-            <p>[Fill Text]</p>
+            <p>With an understanding of where I can start making design changes, I started ideating and sketching possible solutions that met the design goals that I have just laid out.
+						</p>
           </div>
 					<div class="cs-subtitle" id="hiven">A Frictionless User Flow</div>
 					<div class="cs-text">
@@ -256,7 +259,7 @@
 						</ul>
 						<p>I made quick sketches that were translated into digital mockups.  It was important for these cards to take into account space and the visual representation of content as to not confuse users.  Taking up too much space would unnecessarily lengthen the users’ search process, while the use of abstract representation will hinder the users’ decision making.</p>
 						
-						<div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel1">
+						<div id="carouselExampleIndicators1" class="carousel slide cs-carousel" data-ride="carousel1">
 						<ol class="carousel-indicators">
 							<li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
     					<li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
@@ -317,7 +320,7 @@
 						</ul>
 
 
-						<div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel1">
+						<div id="carouselExampleIndicators2" class="carousel slide cs-carousel" data-ride="carousel1">
 						<ol class="carousel-indicators">
 							<li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
     					<li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
@@ -358,7 +361,7 @@
             <b>Hi-Fidelity Mock Ups + Prototyping</b>
           </div>
 					<div class="cs-text">
-						<p>Having finished the nitty-gritty design thinking and early stage mock-ups, its time to get to making </p>
+						<p>Having finished the nitty-gritty design thinking and early stage mock-ups, its time to get to making a fully fleshed out product.  The aim of this step in the design process is clean up the edges of the mid-fidelity mock-ups, being particularly mindful of how colors, space and [] influence the user's experience.  An example of these design decisions are the use of different colors to denote active and inactive states, or to guide users to complete a desirable action.</p>
 					</div>
 					<div class="cs-subtitle" id="hiven">Defining the Design Identity</div>
           <div class="cs-text">
@@ -393,7 +396,7 @@
 							<li>use a dual column design that displayed search result placards on the left and information on the right</li>
 						</ul>
 						
-						<video width="800px" height="auto" class="img-fluid cs-img dropshadow"autoplay muted loop>
+						<video width="800px" height="auto" class="img-fluid cs-img dropshadow"autoplay muted loop controls>
 							<source src="images/hiven_proto_search.mp4" type="video/mp4">
 						</video>
 						
@@ -407,6 +410,33 @@
 							<li> &nbsp; After clicking the booking button, a confirmation pop up provides the user with the details of the book to ensure users understand what actions they are taking.</li>
 							<li> &nbsp; Once confirmed, users will be taken to the post-booking flow</li>
 						</ol>
+						
+					<div id="carouselExampleIndicators3" class="carousel slide cs-carousel" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+    					<li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+    					<li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+  					</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img class="d-block w-100" src="images/hiven_hifi_search.svg" alt="First slide">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/hiven_hifi_filter.svg" alt="Second slide">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/hiven_hifi_booking.svg" alt="Third slide">
+								</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
 
 						<p>When designing the workspace information panel, I wanted to make sure that users were presented with key decision making information first.  Do address this, I made the following design solutions:</p>
 						<ul>
@@ -426,13 +456,38 @@
           </div>
 					<div class="cs-subtitle" id="hiven">A Personal Post-Booking Experience</div>
           <div class="cs-text">
-						<p>From the previous analysis of the current landing page, I wanted the newly redesigned landing page to:</p>
-						<ul>
-							<li>have a primary call to action button that allowed users to explore the product's search feature</li>
-							<li>make logging-in and/or signing-up to be a secondary action</li>
-							<li>feel personable, with an intriguing tagline</li>
-						</ul>
-						<img >
+						<p></p>
+						<video class="img-fluid dropshadow cs-img " width="800px" height="600px" autoplay muted loop controls>
+							<source src="images/hiven_proto_postbook.mp4" type="video/mp4">
+						</video>
+						<p></p>
+						<div id="carouselExampleIndicators4" class="carousel slide cs-carousel" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+    					<li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+    					<li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+  					</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img class="d-block w-100" src="images/hiven_hifi_confirm.svg" alt="First slide">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/hiven_hifi_learnmore.svg" alt="Second slide">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/hiven_hifi_message.svg" alt="Third slide">
+								</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+						
           </div>
 				</div>
 			</div>
@@ -443,13 +498,14 @@
             <b>Conclusion + Reflection</b>
           </div>
           <div class="cs-text">
-						<p>Based off of my analysis and assumptions, below are the following goals I am striving for with my redesign:</p>
-						<ul>
-							<li>Simplify the user flow from the landing page to booking a hive; specifically, reducing the barriers that would persuade users to click elsewhere</li>
-							<li>Allow users to easily to explore and search for their preferred hive; showing a necessary information upfront and reducing redirection</li>
-							<li>Create a more personal experience, with increased interaction with hive hosts before the appointed time</li>
-						</ul>
+						<p></p>
            </div>
+					<div class="cs-subtitle" id="hiven">Meeting My Goals</div>
+					<p>[Fill Text]</p>
+					<div class="cs-subtitle" id="hiven">Thoughts on User Testing</div>
+					<p>[Fill Text]</p>
+					<div class="cs-subtitle" id="hiven">Whats For the Future</div>
+					<p>[Fill Text]</p>
 				</div>
 			</div>
 
