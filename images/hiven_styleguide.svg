@@ -62,7 +62,7 @@
 " transform="translate(57 1249)" fill="#ad67e0" font-size="16" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="16">Logo</tspan></text>
     <text id="Secondary_Gradient" data-name="Secondary Gradient" transform="translate(57 1060)" fill="#ad67e0" font-size="16" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Secondary Gradient</tspan></text>
     <text id="Secondary_Color" data-name="Secondary Color" transform="translate(360 624)" fill="#ad67e0" font-size="16" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Secondary Color</tspan></text>
-    <text id="Body" transform="translate(57 479)" font-size="14" font-family="CircularStd-Book, Circular Std"><tspan x="0" y="0">Body</tspan></text>
+    <text id="Body" transform="translate(57 479)" font-size="32" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Body</tspan></text>
     <text id="_48px_Bold" data-name="48px Bold" transform="translate(57 272)" fill="#8b8b8b" font-size="16" font-family="CircularStd-Book, Circular Std"><tspan x="0" y="0">48px Bold</tspan></text>
     <text id="_32px_Medium" data-name="32px Medium" transform="translate(57 365)" fill="#8b8b8b" font-size="16" font-family="CircularStd-Book, Circular Std"><tspan x="0" y="0">32px Medium</tspan></text>
     <text id="_16px_Medium" data-name="16px Medium" transform="translate(57 437)" fill="#8b8b8b" font-size="16" font-family="CircularStd-Book, Circular Std"><tspan x="0" y="0">16px Medium</tspan></text>
@@ -169,9 +169,9 @@
         <path id="Path_14-3" data-name="Path 14" d="M440.4,453.155v4.991l-2.829,1.635v-4.993Z" transform="translate(-412.621 -431.198)" fill="url(#linear-gradient-8)"/>
       </g>
     </g>
-    <rect id="Rectangle_43" data-name="Rectangle 43" width="101" height="42" rx="7" transform="translate(283 1282)" fill="url(#linear-gradient-5)"/>
-    <rect id="Rectangle_44" data-name="Rectangle 44" width="101" height="42" rx="7" transform="translate(416 1282)" fill="url(#linear-gradient-11)"/>
-    <rect id="Rectangle_45" data-name="Rectangle 45" width="101" height="42" rx="7" transform="translate(549 1282)" fill="url(#linear-gradient-12)"/>
+    <rect id="Rectangle_43" data-name="Rectangle 43" width="101" height="42" transform="translate(283 1282)" fill="url(#linear-gradient-5)"/>
+    <rect id="Rectangle_44" data-name="Rectangle 44" width="101" height="42" transform="translate(416 1282)" fill="url(#linear-gradient-11)"/>
+    <rect id="Rectangle_45" data-name="Rectangle 45" width="101" height="42" transform="translate(549 1282)" fill="url(#linear-gradient-12)"/>
     <text id="Hiven-4" data-name="Hiven" transform="translate(330.616 1308.319)" fill="#fcfcfc" font-size="17" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Hiven</tspan></text>
     <text id="Hiven-5" data-name="Hiven" transform="translate(463.616 1308.319)" fill="#fcfcfc" font-size="17" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Hiven</tspan></text>
     <text id="Hiven-6" data-name="Hiven" transform="translate(596.616 1308.319)" fill="#fcfcfc" font-size="17" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Hiven</tspan></text>
