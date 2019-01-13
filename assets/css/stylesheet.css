@@ -321,6 +321,22 @@ body {
 	background-color: #DB859D;
 }
 
+.btn-search {
+	transition: color 0.5s ease;
+	transition: background 0.3s ease;
+	font-family: "Circular-Medium";
+	color:#133142;
+	background-color: #FFEEB2;
+}
+
+.btn-pix {
+	transition: color 0.5s ease;
+	transition: background 0.3s ease;
+	font-family: "Circular-Medium";
+	color:#133142;
+	background-color: #FFD9DC;
+}
+
 #wegrow {
     background-color:#4FBF5C;
 }
@@ -369,6 +385,21 @@ body {
 	background-color: #8C2C46;
 }
 
+#search {
+	color:#FBC304;
+}
+
+#search-card {
+	background-color: #FBC304;
+}
+
+#pix {
+	color:#FDB3B9;
+}
+
+#pix-card {
+	background-color:#FDB3B9;
+}
 
 #wegrow-text {
     color: ;
