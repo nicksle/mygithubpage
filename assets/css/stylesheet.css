@@ -337,6 +337,21 @@ body {
 	background-color: #FFD9DC;
 }
 
+.btn-nso {
+	transition: color 0.5s ease;
+	transition: background 0.3s ease;
+	font-family: "Circular-Medium";
+	color:#133142;
+	background-color: #DEACBD;
+}
+
+.btn-nso:hover {
+	color:#D3094D;
+	background-color: white;
+	box-shadow: 1px 2px #691330;
+}
+
+
 #wegrow {
     background-color:#4FBF5C;
 }
@@ -399,6 +414,14 @@ body {
 
 #pix-card {
 	background-color:#FDB3B9;
+}
+
+#nso {
+	color: #D3094D;
+}
+
+#nso-card {
+	background-color: #D3094D;
 }
 
 #wegrow-text {
