@@ -40,7 +40,7 @@
 	
 	<div class="container generic-FadeIn">
 		<div class="cssplash">
-			<img class="d-block w-100 imag-responsive" src="images/hiven_splash.svg">  
+			<img class="d-block w-100 imag-responsive" src="images/nso-splash.svg">  
 		</div>
 	</div>
     
@@ -62,18 +62,6 @@
 			</video>
 		</div>
 	</div>
-
-	<div class="container">
-		<div class="animate-in cs-content">
-			<div class="cs-title">
-				<b>The Challenge</b>
-			</div>
-			<div class="cs-text">
-				<p>As part of the Google design challenge, I was provided with the following prompt:</p>
-				<p>A new school year is approaching and the orientation team is looking to you for some design expertise. Design an experience for students to discover orientation events and craft a visual system to accommodate different types of events: sports, music, visual arts, social groups, and volunteering events. Provide high-fidelity mocks for searching, browsing, and viewing the details for these different events.</p>
-			</div>
-		</div>
-	</div>
 	
 	<div class="container">
 		<div class="animate-in cs-content">
@@ -81,7 +69,7 @@
 				<b>Background</b>
 			</div>
 			<div class="cs-text">
-				<p>Throughout the past few years, UC Berkeley’s new-student-orientation has evolved from a quick overnight excursion, to a week-long immersion where students are encouraged to explore the campus and city, while also attending mandatory events that inform them about campus rules and regulations.  In the program, the new students are given a vague schedule (the schedules differ based on the type of new student, like freshmen living on-campus, to junior transfers living-off campus) of the upcoming events and then are handed off to “GBO (Golden Bear Orientation) Leaders” who are to guide them.  The overall reception of the of the GBO program has been mixed; with praise to the immersive experience and criticism of the treatment of the overworked GBO Leaders.  The following design case study will address the proposed challenge (stated above) by understanding the pain points that students encounter throughout the [].</p>
+				<p>Throughout the past few years, UC Berkeley’s new-student-orientation has evolved from a quick overnight excursion, to a week-long immersion where students are encouraged to explore the campus and city, while also attending mandatory events that inform them about campus rules and regulations.  In the program, the new students are given a vague schedule (the schedules differ based on the type of new student, like freshmen living on-campus, to junior transfers living-off campus) of the upcoming events and then are handed off to “GBO (Golden Bear Orientation) Leaders” who are to guide them.  The overall reception of the of the GBO program has been mixed; with praise to the immersive experience and criticism of the treatment of the overworked GBO Leaders.  The following design case study will address the proposed challenge (stated below) by understanding the pain points that students encounter throughout the process.</p>
 			</div>
 		</div>
 	</div>
@@ -89,7 +77,33 @@
 	<div class="container">
 		<div class="animate-in cs-content">
 			<div class="cs-title">
-				<b>User Research + []</b>
+				<b>The Challenge</b>
+			</div>
+			<div class="cs-text">
+				<p>As part of the Google design challenge, I was provided with the following prompt:</p>
+				<p>A <b id="nso">new school year</b> is approaching and the orientation team is looking to you for some design expertise. Design an experience for <b id="nso">students</b> to <b id="nso">discover orientation events</b> and craft a <b id="nso">visual system</b> to accommodate different types of events: sports, music, visual arts, social groups, and volunteering events. Provide <b id="nso">high-fidelity mocks</b> for searching, browsing, and viewing the details for these different events.</p>
+			</div>
+			<div class="cs-subtitle" id="nso">Interpretation and Constraints</div>
+			<div class="cs-text">
+				<p>Reading the prompt, there are a few things I can pick out and define based on what it refers to in my situation:</p>
+				<ul>
+					<li>students: UC Berkeley Students</li>
+					<li>orientation events: GBO (Berkeley’s orientation plan for new students)</li>
+					<li>visual system/high-fidelity mocks: digital experience?</li>
+				</ul>
+				<p>Additionally the prompt of the challenge lays out the basic needs for the design that I am required to create, it must include:</p>
+				<li>a search function</li>
+				<li>a browsing function</li>
+				<li>an event details function</li>
+				<li>a visual system</li>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="animate-in cs-content">
+			<div class="cs-title">
+				<b>User Research + Insight Synthesis</b>
 			</div>
 			<div class="cs-subtitle" id="nso">Target Groups</div>
 			<div class="cs-text">
@@ -104,6 +118,7 @@
 			<div class="cs-subtitle" id="nso">Observations + Affinity Mapping</div>
 			<div class="cs-text">
 				<p>At the conclusion of the interviews, I recorded my observations onto post-it notes and organized them using affinity mapping.  The map groups together relevant observations and allows me to identify over arching themes or ideas.</p>
+				<img src="images/nso-affinity-map-01.png" class="img-fluid cs-img">
 			</div>
 			<div class="cs-subtitle" id="nso">Insights</div>
 			<div class="cs-text">
@@ -112,7 +127,7 @@
 					<li>New student’s find the preplanned GBO schedule to be too packed and they can experience event fatigue.</li>
 					<li>New students are wary of exploring events because of the fear of missing mandatory events.</li>
 					<li>There is no official resource to find non-GBO sanctioned events, thus student’s rely on social media or world of mouth to discover new events.</li>
-					<li>New student’s approach finding new events in an open exploratory fashion rather than looking for a specific event.</li>
+					<li>New students approach finding new events in an open exploratory fashion rather than looking for a specific event.</li>
 				</ol>
 			</div>
 			<div class="cs-subtitle" id="nso">Personas</div>
@@ -129,11 +144,16 @@
 			</div>
 			<div class="cs-subtitle" id="nso">Design Goals</div>
 			<div class="cs-text">
-				<p>Design a product that allows new students to flexibly explore orientation events without the fear of missing mandatory events.</p>
+				<p>Based on my research, the primary goal of the design is to:</p>
+				<h4 class="center" id="nso">Allow new students to flexibly explore orientation events without the fear of missing mandatory events.</h4>
 			</div>
-			<div class="cs-subtitle" id="nso">New Design Solution</div>
+			<br>
+			<div class="cs-subtitle" id="nso">New Design Solutions</div>
 			<div class="cs-text">
 				<p>I ideated lots of different solutions.</p>
+				
+				<p><b>PWA: Progressive Web App</b></p>
+				<p>Fill Text</p>
 				
 				<p><b>Event Exploration</b></p>
 				<p>Fill text</p>
@@ -167,13 +187,13 @@
 			</div>
 			<div class="cs-subtitle" id="nso">Itinerary Screens</div>
 			<div class="cs-text">
-				<p>[Fill Text]</p>
-				<img>
+				<p>Student’s felt overwhelmed when looking at the weeklong preplanned GBO schedule, worrying about if they are going to make it to every event or the consequences of missing a mandatory event.  With the scheduling screens, I wanted to reduce the magnitude of the plans, by showing activities in a “day-by day” format.  When thinking about user interactions, I created a system of tapping to switch days, and using a swipe to delete events.  My initial mock ups were modeled after a to-do list, showing only time stamps with relevant/existing events, but this created issues with overlapping events and double booked events.</p>
+				<img src="images/nso-scheduler%20mid-fi.png" class="img-fluid">
 			</div>
 			<div class="cs-subtitle" id="nso">Detail Screens</div>
 			<div class="cs-text">
 				<p>[Fill Text]</p>
-				<img>
+				<img src="images/nso-details%20mid-fi.png" class="img-fluid">
 			</div>
 		</div>
 	</div>
@@ -216,25 +236,36 @@
 			</div>
 			<div class="cs-text">
 				<p>[Fill Text]</p>
-				<video height="600px" width="800px"class="img-fluid dropshadow cs-img"autoplay muted loop>
-					<source src="images/nso-onboarding-proto.mp4" type="video/mp4">
-				</video>
+
 			</div>
 			<div class="cs-subtitle" id="nso">On Boarding</div>
 			<div class="cs-text">
 				<p></p>
+				<video height="600px" width="800px"class="img-fluid"autoplay muted loop>
+					<source src="images/nso-onboarding-proto.mp4" type="video/mp4">
+				</video>
+				<img src="images/nso-onboard%20hifi.png" class="img-fluid">
 			</div>
 			<div class="cs-subtitle" id="nso">Itinerary Page</div>
 			<div class="cs-text">
 				<p></p>
+				<img src="images/nso-itinerary%20hifi.png" class="img-fluid">
 			</div>
 			<div class="cs-subtitle" id="nso">Browse + Search</div>
 			<div class="cs-text">
 				<p></p>
+				<video height="600px" width="800px"class="img-fluid"autoplay muted loop>
+					<source src="images/nso-search-proto.mp4" type="video/mp4">
+				</video>
+				<img src="images/nso-browse%20hi-fi.png" class="img-fluid">
 			</div>
 			<div class="cs-subtitle" id="nso">Details Page</div>
 			<div class="cs-text">
 				<p></p>
+				<video height="600px" width="800px"class="img-fluid"autoplay muted loop>
+					<source src="images/nso-details-proto.mp4" type="video/mp4">
+				</video>
+				<img src="images/nso-details%20hi-fi.png" class="img-fluid">
 			</div>
 		</div>
 	</div>
