@@ -45,6 +45,10 @@ body {
 .dropshadow {
 	box-shadow: 4px 4px 20px grey;
 }
+
+h4 {
+	line-height: 40px;
+}
 /* Nav Bar */
 .navbar {
 	width: 70%;
@@ -412,8 +416,7 @@ body {
 
 
 #wegrow-text {
-    color: ;
-    text-shadow: ;
+    color: #4FBF5C;
 }
 
 
