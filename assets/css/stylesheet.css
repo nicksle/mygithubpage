@@ -390,20 +390,16 @@ h4 {
 	background-color:#D9C6E6;
 }
 
-#healthcare {
-	color:#8C2C46;
-}
-
-#healthcare-card {
-	background-color: #8C2C46;
-}
-
 #nso {
 	color:#FBC304;
 }
 
 #nso-card {
 	background-color: #FBC304;
+}
+
+#search {
+  color: #14AFBC;
 }
 
 #pix {
