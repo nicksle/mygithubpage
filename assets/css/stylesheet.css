@@ -49,6 +49,7 @@ body {
 h4 {
 	line-height: 40px;
 }
+
 /* Nav Bar */
 .navbar {
 	width: 70%;
@@ -716,6 +717,63 @@ footer {
 }
 
 @media (max-width: 450px) {
+	
+	.splash {
+  font-family: "Circular-Book";
+	position: relative;
+  width: 100%;
+  margin: auto;
+  color: white;
+  height: 464px;
+	background-color: #EBC7BB;
+}
+	
+	.bg-color-splash {
+	background-color: #EBC7BB;
+	margin: auto;
+	padding: 40px 0px 80px 0px;
+}
+	
+	.splash-content {
+	margin: 0px 8px 0px 8px;
+	position: absolute;
+	color: #F8F8F8;
+}
+	
+	.splash-title {
+	font-family: "Circular-Bold";
+	text-align: left;
+	font-size: 32px;
+	letter-spacing: 2px;
+}
+	
+	.splash-text {
+	font-family: "Circular-Medium";
+	text-align: left;
+	font-size: 24px;
+	width: 100%;
+	line-height: 48px;
+	/*margin: 56px 0px 0px 0px;*/
+	letter-spacing: 2px;
+}
+
+	.down-arrow {
+	position: absolute;
+	align-content: right;
+	height: 64px;
+	width: 64px;
+	right: 0;
+	top: 0;
+	padding: 10px 10px 10px 10px;
+	margin: 448px 0px 0px 0px;
+  animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 1s infinite alternate;
+}
+	
+	.layout {
+	margin: 40px 0px 0px 0px;
+}
+
 
 }
 
@@ -752,6 +810,7 @@ footer {
 @media (max-width: 450px) {
 
 }
+
 
 
 /*Animations*/
