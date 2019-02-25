@@ -340,6 +340,21 @@ h4 {
     box-shadow: 1px 2px #493806;
 }
 
+.btn-search {
+	transition: color 0.5s ease;
+	transition: background 0.3s ease;
+	font-family: "Circular-Medium";
+	color:#133142;
+	background-color: #BDD1F2;
+}
+
+.btn-search:hover {
+    color: #0061FF;
+    background-color: #FAFAFA;
+    box-shadow: 1px 2px ##253753;
+}
+
+
 .btn-pix {
 	transition: color 0.5s ease;
 	transition: background 0.3s ease;
@@ -400,7 +415,11 @@ h4 {
 }
 
 #search {
-  color: #14AFBC;
+  color: #0061FF;
+}
+
+#search-card {
+	background-color: #0061FF;
 }
 
 #pix {
@@ -624,6 +643,12 @@ footer {
 .cs-img {
 	margin: 15px 0px 15px 0px;
 	border-radius: 8px;
+}
+
+.cs-intro-list {
+	line-height: 32px;
+	list-style: none;
+	padding-left: 2px;
 }
 
 .img-center-parent {
