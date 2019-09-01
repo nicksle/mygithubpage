@@ -208,6 +208,7 @@ h4 {
     text-align: center;
 }
 
+
 .card-body {
     border-radius: 8px;
 }
@@ -248,8 +249,7 @@ h4 {
 }
 
 .btn-wegrow {
-	transition: color 0.5s ease;
-	transition: background 0.3s ease;
+	transition: color 0.5s ease, box-shadow 0.5s ease, background 0.3s ease;
   font-family: "Circular-Medium";
   color: #0C1C0E;
   background-color: #8FCC93;
@@ -291,8 +291,7 @@ h4 {
 }
 
 .btn-venmo {
-	transition: color 0.5s ease;
-	transition: background 0.3s ease;
+	transition: color 0.5s ease, box-shadow 0.5s ease, background 0.3s ease;
   font-family: "Circular-Medium";
   color: #133142;
   background-color: #87AFC6;
@@ -305,8 +304,7 @@ h4 {
 }
 
 .btn-hiven {
-	transition: color 0.5s ease;
-	transition: background 0.3s ease;
+	transition: color 0.5s ease, box-shadow 0.5s ease, background 0.3s ease;
   font-family: "Circular-Medium";
   color: #133142;
   background-color: #CB83FF;
@@ -327,22 +325,20 @@ h4 {
 }
 
 .btn-nso {
-	transition: color 0.5s ease;
-	transition: background 0.3s ease;
+	transition: color 0.5s ease, box-shadow 0.5s ease, background 0.3s ease;
 	font-family: "Circular-Medium";
 	color:#133142;
 	background-color: #FFEEB2;
 }
 
 .btn-nso:hover {
-    color: #FBC304;
-    background-color: #FAFAFA;
-    box-shadow: 1px 2px #493806;
+	color: #FBC304;
+  background-color: #FAFAFA;
+  box-shadow: 1px 2px #493806;
 }
 
 .btn-search {
-	transition: color 0.5s ease;
-	transition: background 0.3s ease;
+	transition: color 0.5s ease, box-shadow 0.5s ease, background 0.3s ease;
 	font-family: "Circular-Medium";
 	color:#133142;
 	background-color: #BDD1F2;
@@ -351,7 +347,7 @@ h4 {
 .btn-search:hover {
     color: #0061FF;
     background-color: #FAFAFA;
-    box-shadow: 1px 2px ##253753;
+    box-shadow: 1px 2px #253753;
 }
 
 
@@ -363,6 +359,18 @@ h4 {
 	background-color: #FFD9DC;
 }
 
+.btn-cashapp {
+	transition: color 0.5s ease, box-shadow 0.5s ease, background 0.3s ease;
+	font-family: "Circular-Medium";
+	color:#133142;
+	background-color: #B3D6AB;
+}
+
+.btn-cashapp:hover {
+    color: #70D35B;
+    background-color: #FAFAFA;
+    box-shadow: 2px 2px #3D5B37;
+}
 
 
 
@@ -422,12 +430,12 @@ h4 {
 	background-color: #0061FF;
 }
 
-#pix {
-	color:#FDB3B9;
+#cashapp {
+	color: #4FAD42;
 }
 
-#pix-card {
-	background-color:#FDB3B9;
+#cashapp-card {
+	background-color: #80DB71;
 }
 
 
