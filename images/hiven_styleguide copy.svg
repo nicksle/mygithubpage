@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="1407" viewBox="0 0 800 1407">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.198" y1="0.128" x2="0.875" y2="0.832" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#50007f"/>
+      <stop offset="1" stop-color="#b243ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.198" y1="0.128" x2="0.875" y2="0.832" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0049a8"/>
+      <stop offset="1" stop-color="#1ca2e3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.198" y1="0.128" x2="0.875" y2="0.832" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffae00"/>
+      <stop offset="1" stop-color="#ffe63b"/>
+    </linearGradient>
+    <filter id="Rectangle_19" x="342.232" y="835" width="392.536" height="188.563" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="0.21" y1="0.131" x2="0.843" y2="0.89" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="0" y1="0" x2="1" y2="1" xlink:href="#linear-gradient"/>
+    <filter id="Ellipse_3" x="701.294" y="988.626" width="18" height="18" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-6" x1="0.2" y1="0.146" x2="0.804" y2="0.882" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="0.266" y1="0.142" x2="0.857" y2="0.815" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-11" x1="0" y1="0" x2="1" y2="1" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-12" x1="0" y1="0" x2="1" y2="1" xlink:href="#linear-gradient-3"/>
+    <clipPath id="clip-hiven_styleguide">
+      <rect width="800" height="1407"/>
+    </clipPath>
+  </defs>
+  <g id="hiven_styleguide" clip-path="url(#clip-hiven_styleguide)">
+    <rect width="800" height="1407" fill="#fff"/>
+    <text id="Style_Guide" data-name="Style Guide" transform="translate(57 77)" fill="#7a00d3" font-size="48" font-family="CircularStd-Bold, Circular Std" font-weight="700"><tspan x="0" y="0">Style Guide</tspan></text>
+    <text id="Typography" transform="translate(57 154)" fill="#7a00d3" font-size="32" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Typography</tspan></text>
+    <text id="Colors" transform="translate(57 575)" fill="#7a00d3" font-size="32" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Colors</tspan></text>
+    <text id="Gradients" transform="translate(57 808)" fill="#7a00d3" font-size="32" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Gradients</tspan></text>
+    <text id="Icons" transform="translate(57 1216)" fill="#7a00d3" font-size="32" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Icons</tspan></text>
+    <text id="Circular_Std" data-name="Circular Std" transform="translate(357 235)" font-size="48" font-family="CircularStd-Bold, Circular Std" font-weight="700"><tspan x="0" y="0">Circular Std</tspan></text>
+    <text id="A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_Z" data-name="A B C D E F G H I J K L M N O P Q R S T U V W X Y Z" transform="translate(359 281)" font-size="14" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</tspan></text>
+    <text id="A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_Z-2" data-name="A B C D E F G H I J K L M N O P Q R S T U V W X Y Z" transform="translate(359 367)" font-size="14" font-family="CircularStd-Medium, Circular Std" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</tspan></text>
+    <text id="A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_Z-3" data-name="A B C D E F G H I J K L M N O P Q R S T U V W X Y Z" transform="translate(359 453)" font-size="14" font-family="CircularStd-Book, Circular Std" letter-spacing="-0.02em"><tspan x="0" y="0">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</tspan></text>
+    <text id="a_b_c_d_e_f_g_h_i_j_k_l_m_n_o_p_q_r_s_t_u_v_w_x_y_z-4" data-name="a b c d e f g h i j k l m n o p q r s t u v w x y z" transform="translate(359 303)" font-size="14" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">a b c d e f g h i j k l m n o p q r s t u v w x y z</tspan></text>
+    <text id="a_b_c_d_e_f_g_h_i_j_k_l_m_n_o_p_q_r_s_t_u_v_w_x_y_z-5" data-name="a b c d e f g h i j k l m n o p q r s t u v w x y z" transform="translate(359 389)" font-size="14" font-family="CircularStd-Medium, Circular Std" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">a b c d e f g h i j k l m n o p q r s t u v w x y z</tspan></text>
+    <text id="a_b_c_d_e_f_g_h_i_j_k_l_m_n_o_p_q_r_s_t_u_v_w_x_y_z-6" data-name="a b c d e f g h i j k l m n o p q r s t u v w x y z" transform="translate(359 475)" font-size="14" font-family="CircularStd-Book, Circular Std" letter-spacing="-0.02em"><tspan x="0" y="0">a b c d e f g h i j k l m n o p q r s t u v w x y z</tspan></text>
+    <text id="_1_2_3_4_5_6_7_8_9_0" data-name="1 2 3 4 5 6 7 8 9 0" transform="translate(359 325)" font-size="14" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">1 2 3 4 5 6 7 8 9 0</tspan></text>
+    <text id="_1_2_3_4_5_6_7_8_9_0-2" data-name="1 2 3 4 5 6 7 8 9 0" transform="translate(359 411)" font-size="14" font-family="CircularStd-Medium, Circular Std" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">1 2 3 4 5 6 7 8 9 0</tspan></text>
+    <text id="_1_2_3_4_5_6_7_8_9_0-3" data-name="1 2 3 4 5 6 7 8 9 0" transform="translate(359 497)" font-size="14" font-family="CircularStd-Book, Circular Std" letter-spacing="-0.02em"><tspan x="0" y="0">1 2 3 4 5 6 7 8 9 0</tspan></text>
+    <text id="Header" transform="translate(57 235)" font-size="48" font-family="CircularStd-Bold, Circular Std" font-weight="700"><tspan x="0" y="0">Header</tspan></text>
+    <text id="Title" transform="translate(57 332)" font-size="32" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Title</tspan></text>
+    <text id="Sub-Title" transform="translate(57 409)" font-size="16" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Sub-Title</tspan></text>
+    <text id="Primary_Colors" data-name="Primary Colors" transform="translate(57 624)" fill="#ad67e0" font-size="16" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Primary Colors</tspan></text>
+    <text id="Primary_Gradient" data-name="Primary Gradient" transform="translate(57 857)" fill="#ad67e0" font-size="16" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Primary Gradient</tspan></text>
+    <text id="Logo_" data-name="Logo
+" transform="translate(57 1249)" fill="#ad67e0" font-size="16" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="16">Logo</tspan></text>
+    <text id="Secondary_Gradient" data-name="Secondary Gradient" transform="translate(57 1060)" fill="#ad67e0" font-size="16" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Secondary Gradient</tspan></text>
+    <text id="Secondary_Color" data-name="Secondary Color" transform="translate(360 624)" fill="#ad67e0" font-size="16" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Secondary Color</tspan></text>
+    <text id="Body" transform="translate(57 479)" font-size="32" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Body</tspan></text>
+    <text id="_48px_Bold" data-name="48px Bold" transform="translate(57 272)" fill="#8b8b8b" font-size="16" font-family="CircularStd-Book, Circular Std"><tspan x="0" y="0">48px Bold</tspan></text>
+    <text id="_32px_Medium" data-name="32px Medium" transform="translate(57 365)" fill="#8b8b8b" font-size="16" font-family="CircularStd-Book, Circular Std"><tspan x="0" y="0">32px Medium</tspan></text>
+    <text id="_16px_Medium" data-name="16px Medium" transform="translate(57 437)" fill="#8b8b8b" font-size="16" font-family="CircularStd-Book, Circular Std"><tspan x="0" y="0">16px Medium</tspan></text>
+    <text id="_14px_Book" data-name="14px Book" transform="translate(57 507)" fill="#8b8b8b" font-size="16" font-family="CircularStd-Book, Circular Std"><tspan x="0" y="0">14px Book</tspan></text>
+    <text id="_7A00D3" data-name="#7A00D3" transform="translate(90 740)" fill="#8b8b8b" font-size="16" font-family="CircularStd-Book, Circular Std"><tspan x="-35.232" y="0">#7A00D3</tspan></text>
+    <text id="_C1A405" data-name="#C1A405" transform="translate(393 740)" fill="#8b8b8b" font-size="16" font-family="CircularStd-Book, Circular Std"><tspan x="-34.152" y="0">#C1A405</tspan></text>
+    <text id="_AD67E0" data-name="#AD67E0" transform="translate(178 740)" fill="#8b8b8b" font-size="16" font-family="CircularStd-Book, Circular Std"><tspan x="-35.344" y="0">#AD67E0</tspan></text>
+    <text id="_8B8B8B" data-name="#8B8B8B" transform="translate(481 740)" fill="#8b8b8b" font-size="16" font-family="CircularStd-Book, Circular Std"><tspan x="-33.632" y="0">#8B8B8B</tspan></text>
+    <text id="_CCCCCC" data-name="#CCCCCC" transform="translate(570 740)" fill="#8b8b8b" font-size="16" font-family="CircularStd-Book, Circular Std"><tspan x="-41.504" y="0">#CCCCCC</tspan></text>
+    <text id="_FCFCFC" data-name="#FCFCFC" transform="translate(659 740)" fill="#8b8b8b" font-size="16" font-family="CircularStd-Book, Circular Std"><tspan x="-37.008" y="0">#FCFCFC</tspan></text>
+    <circle id="Ellipse_10" data-name="Ellipse 10" cx="32" cy="32" r="32" transform="translate(57 652)" fill="#7a00d3"/>
+    <circle id="Ellipse_17" data-name="Ellipse 17" cx="32" cy="32" r="32" transform="translate(57 885)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_18" data-name="Ellipse 18" cx="32" cy="32" r="32" transform="translate(57 1088)" fill="url(#linear-gradient-2)"/>
+    <circle id="Ellipse_19" data-name="Ellipse 19" cx="32" cy="32" r="32" transform="translate(153 1088)" fill="url(#linear-gradient-3)"/>
+    <path id="Path_12" data-name="Path 12" d="M32,0A32,32,0,1,1,0,32,32,32,0,0,1,32,0Z" transform="translate(360 652)" fill="#c1a405"/>
+    <circle id="Ellipse_11" data-name="Ellipse 11" cx="32" cy="32" r="32" transform="translate(146 652)" fill="#ad67e0"/>
+    <circle id="Ellipse_12" data-name="Ellipse 12" cx="32" cy="32" r="32" transform="translate(449 652)" fill="#7e7e7e"/>
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="32" cy="32" r="32" transform="translate(538 652)" fill="#ccc"/>
+    <circle id="Ellipse_21" data-name="Ellipse 21" cx="32" cy="32" r="32" transform="translate(627 652)" fill="#fcfcfc"/>
+    <g id="Calendar" transform="translate(-70.768 92)">
+      <g transform="matrix(1, 0, 0, 1, 70.77, -92)" filter="url(#Rectangle_19)">
+        <rect id="Rectangle_19-2" data-name="Rectangle 19" width="374.536" height="170.563" transform="translate(351.23 841)" fill="#fff"/>
+      </g>
+      <g id="Dates" transform="translate(444.507 799.301)">
+        <g id="SUN" transform="translate(0 0)">
+          <circle id="Selection" cx="5.627" cy="5.627" r="5.627" transform="translate(2.572 23.309)" fill="url(#linear-gradient-4)"/>
+          <text id="SUN-2" data-name="SUN" transform="translate(0 6)" fill="#272727" font-size="6" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.12em"><tspan x="0" y="0">SUN</tspan></text>
+          <text id="SUN-3" data-name="SUN" transform="translate(8.385 30.321)" fill="#fff" font-size="5" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.12em"><tspan x="-1.455" y="0">6</tspan></text>
+        </g>
+        <g id="MON" transform="translate(52.048 0)" opacity="0.998">
+          <text id="SUN-4" data-name="SUN" transform="translate(10.495 30.321)" fill="#272727" font-size="5" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.12em"><tspan x="-1.258" y="0">7</tspan></text>
+          <text id="MON-2" data-name="MON" transform="translate(0 6)" fill="#272727" font-size="6" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.12em"><tspan x="0" y="0">MON</tspan></text>
+        </g>
+        <g id="TUES" transform="translate(107.965 0)">
+          <text id="SUN-5" data-name="SUN" transform="translate(7.682 30.321)" fill="#272727" font-size="5" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.12em"><tspan x="-1.42" y="0">8</tspan></text>
+          <text id="TUE" transform="translate(0 6)" fill="#272727" font-size="6" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.12em"><tspan x="0" y="0">TUE</tspan></text>
+        </g>
+        <g id="WED" transform="translate(158.606 0)">
+          <text id="SUN-6" data-name="SUN" transform="translate(9.44 30.321)" fill="#272727" font-size="5" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.12em"><tspan x="-1.457" y="0">9</tspan></text>
+          <text id="WED-2" data-name="WED" transform="translate(0 6)" fill="#272727" font-size="6" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.12em"><tspan x="0" y="0">WED</tspan></text>
+        </g>
+        <g id="THR" transform="translate(212.765 0)">
+          <text id="SUN-7" data-name="SUN" transform="translate(7.572 31.321)" fill="#272727" font-size="6" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.12em"><tspan x="-3.453" y="0">10</tspan></text>
+          <text id="THR-2" data-name="THR" transform="translate(0 6)" fill="#272727" font-size="6" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.12em"><tspan x="0" y="0">THR</tspan></text>
+        </g>
+        <g id="FRI" transform="translate(264.461 0)">
+          <text id="SUN-8" data-name="SUN" transform="translate(5.517 30.321)" fill="#272727" font-size="5" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.12em"><tspan x="-2.28" y="0">11</tspan></text>
+          <text id="FRI-2" data-name="FRI" transform="translate(0 6)" fill="#272727" font-size="6" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.12em"><tspan x="0" y="0">FRI</tspan></text>
+        </g>
+        <g id="SAT" transform="translate(311.586 0)">
+          <text id="SUN-9" data-name="SUN" transform="translate(7.572 31.321)" fill="#272727" font-size="6" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.12em"><tspan x="-3.219" y="0">12</tspan></text>
+          <text id="SAT-2" data-name="SAT" transform="translate(0 6)" fill="#272727" font-size="6" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.12em"><tspan x="0" y="0">SAT</tspan></text>
+        </g>
+      </g>
+      <g id="JANUARY" transform="translate(443.101 764.485)">
+        <text id="January-2" data-name="January" transform="translate(0 13)" fill="#272727" font-size="13" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.08em"><tspan x="0" y="0">January</tspan></text>
+      </g>
+      <g id="TIME_BAR" data-name="TIME + BAR" transform="translate(422 852.041)">
+        <rect id="Rectangle_20" data-name="Rectangle 20" width="374.536" height="33.761" transform="translate(0 0)" fill="url(#linear-gradient-5)"/>
+        <g id="TIMES" transform="translate(17.584 13.199)">
+          <text id="TIMES-2" data-name="TIMES" transform="translate(11 6)" fill="#fff" font-size="6" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.12em"><tspan x="-10.62" y="0">TIMES</tspan></text>
+          <rect id="Rectangle_21" data-name="Rectangle 21" width="0.703" height="1.407" transform="translate(69.346 11.957)" fill="#fff" opacity="0"/>
+          <text id="_8:00AM" data-name="8:00AM" transform="translate(64.868 6)" fill="#fff" font-size="6" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.04em" opacity="0.997"><tspan x="-11.145" y="0">8:00</tspan><tspan y="0" font-size="5">AM</tspan></text>
+          <rect id="Rectangle_23" data-name="Rectangle 23" width="0.703" height="1.407" transform="translate(121.806 11.957)" fill="#fff" opacity="0"/>
+          <text id="_9:00AM" data-name="9:00AM" transform="translate(117.327 6)" fill="#fff" font-size="6" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.04em" opacity="0.997"><tspan x="-11.19" y="0">9:00</tspan><tspan y="0" font-size="5">AM</tspan></text>
+          <text id="_10:00AM" data-name="10:00AM" transform="translate(169.676 6)" fill="#fff" font-size="6" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.04em" opacity="0.997"><tspan x="-12.655" y="0">10:00</tspan><tspan y="0" font-size="5">AM</tspan></text>
+          <text id="_12:00AM" data-name="12:00AM" transform="translate(221.84 6)" fill="#fff" font-size="6" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.04em" opacity="0.997"><tspan x="-12.42" y="0">12:00</tspan><tspan y="0" font-size="5">AM</tspan></text>
+          <text id="_1:00PM" data-name="1:00PM" transform="translate(272.703 6)" fill="#fff" font-size="6" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.04em" opacity="0.997"><tspan x="-10.35" y="0">1:00</tspan><tspan y="0" font-size="5">PM</tspan></text>
+          <text id="_2:00PM" data-name="2:00PM" transform="translate(322.586 6)" fill="#fff" font-size="6" font-family="CircularStd-Bold, Circular Std" font-weight="700" letter-spacing="0.04em" opacity="0.997"><tspan x="-10.773" y="0">2:00</tspan><tspan y="0" font-size="5">PM</tspan></text>
+        </g>
+      </g>
+      <g id="Final_Dates_Timne" data-name="Final Dates + Timne" transform="translate(422 885.745)" opacity="0.999">
+        <rect id="Final_Dates_Times" data-name="Final Dates + Times" width="374.536" height="33.761" transform="translate(0 0)" fill="#fff" opacity="0"/>
+        <rect id="Rectangle_22" data-name="Rectangle 22" width="0.352" height="1.407" transform="translate(57.323 23.585)" fill="#7a00d3" opacity="0"/>
+        <g id="Group_10" data-name="Group 10" transform="translate(21.804 11.605)">
+          <text id="JAN_6_8:00AM" data-name="JAN 6 @ 8:00AM" transform="translate(25 6)" font-size="6" font-family="CircularStd-Medium, Circular Std" font-weight="500" letter-spacing="0.04em" opacity="0"><tspan x="-25.287" y="0">JAN 6 @ 8:00AM</tspan></text>
+          <text id="_-_9:00AM" data-name="- 9:00AM" transform="translate(77.654 6)" font-size="6" font-family="CircularStd-Medium, Circular Std" font-weight="500" letter-spacing="0.04em" opacity="0"><tspan x="-13.89" y="0">- 9:00AM</tspan></text>
+        </g>
+        <g id="add_btn" transform="translate(359.062 16.88)" opacity="0">
+          <g transform="matrix(1, 0, 0, 1, -710.29, -994.63)" filter="url(#Ellipse_3)">
+            <circle id="Ellipse_3-2" data-name="Ellipse 3" transform="translate(710.29 994.63)" fill="#7a00d3"/>
+          </g>
+          <g id="add_icn" transform="translate(0 0)">
+            <line id="Line_13" data-name="Line 13" transform="translate(0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+            <line id="Line_14" data-name="Line 14" transform="translate(0 0) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="Hiven" transform="translate(641 72)" fill="#7a00d3" font-size="32" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Hiven</tspan></text>
+    <g id="Group_31" data-name="Group 31" transform="translate(297.235 -280.825)">
+      <path id="Path_13" data-name="Path 13" d="M329.265,325.582v14.75l-7.077-4.026L311.4,349.217v18.194l-9.424,5.441-27.29-15.758V325.582l27.29-15.757Z" fill="url(#linear-gradient-6)"/>
+      <path id="Path_14" data-name="Path 14" d="M442.76,453.155V462.3l-5.185,3v-9.149Z" transform="translate(-117.161 -103.093)" fill="url(#linear-gradient-6)"/>
+    </g>
+    <text id="Hiven-2" data-name="Hiven" transform="translate(94.616 1308.319)" fill="#1f1f1f" font-size="17" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Hiven</tspan></text>
+    <g id="Group_33" data-name="Group 33" transform="translate(56.92 1285.317)">
+      <path id="Path_13-2" data-name="Path 13" d="M304.469,318.423v8.049l-3.862-2.2-5.887,7.045v9.928l-5.143,2.969-14.892-8.6v-17.2l14.892-8.6Z" transform="translate(-274.685 -309.825)" fill="#1f1f1f"/>
+      <path id="Path_14-2" data-name="Path 14" d="M440.4,453.155v4.991l-2.829,1.635v-4.993Z" transform="translate(-412.621 -431.198)" fill="#1f1f1f"/>
+    </g>
+    <g id="Symbol_3_1" data-name="Symbol 3 – 1">
+      <text id="Hiven-3" data-name="Hiven" transform="translate(207.616 1308.319)" fill="#7a00d3" font-size="17" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Hiven</tspan></text>
+      <g id="Group_34" data-name="Group 34" transform="translate(169.92 1285.317)">
+        <path id="Path_13-3" data-name="Path 13" d="M304.469,318.423v8.049l-3.862-2.2-5.887,7.045v9.928l-5.143,2.969-14.892-8.6v-17.2l14.892-8.6Z" transform="translate(-274.685 -309.825)" fill="url(#linear-gradient-8)"/>
+        <path id="Path_14-3" data-name="Path 14" d="M440.4,453.155v4.991l-2.829,1.635v-4.993Z" transform="translate(-412.621 -431.198)" fill="url(#linear-gradient-8)"/>
+      </g>
+    </g>
+    <rect id="Rectangle_43" data-name="Rectangle 43" width="101" height="42" transform="translate(283 1282)" fill="url(#linear-gradient-5)"/>
+    <rect id="Rectangle_44" data-name="Rectangle 44" width="101" height="42" transform="translate(416 1282)" fill="url(#linear-gradient-11)"/>
+    <rect id="Rectangle_45" data-name="Rectangle 45" width="101" height="42" transform="translate(549 1282)" fill="url(#linear-gradient-12)"/>
+    <text id="Hiven-4" data-name="Hiven" transform="translate(330.616 1308.319)" fill="#fcfcfc" font-size="17" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Hiven</tspan></text>
+    <text id="Hiven-5" data-name="Hiven" transform="translate(463.616 1308.319)" fill="#fcfcfc" font-size="17" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Hiven</tspan></text>
+    <text id="Hiven-6" data-name="Hiven" transform="translate(596.616 1308.319)" fill="#fcfcfc" font-size="17" font-family="CircularStd-Medium, Circular Std" font-weight="500"><tspan x="0" y="0">Hiven</tspan></text>
+    <g id="Group_35" data-name="Group 35" transform="translate(292.92 1285.317)">
+      <path id="Path_13-4" data-name="Path 13" d="M304.469,318.423v8.049l-3.862-2.2-5.887,7.045v9.928l-5.143,2.969-14.892-8.6v-17.2l14.892-8.6Z" transform="translate(-274.685 -309.825)" fill="#fcfcfc"/>
+      <path id="Path_14-4" data-name="Path 14" d="M440.4,453.155v4.991l-2.829,1.635v-4.993Z" transform="translate(-412.621 -431.198)" fill="#fcfcfc"/>
+    </g>
+    <g id="Group_36" data-name="Group 36" transform="translate(425.92 1285.317)">
+      <path id="Path_13-5" data-name="Path 13" d="M304.469,318.423v8.049l-3.862-2.2-5.887,7.045v9.928l-5.143,2.969-14.892-8.6v-17.2l14.892-8.6Z" transform="translate(-274.685 -309.825)" fill="#fcfcfc"/>
+      <path id="Path_14-5" data-name="Path 14" d="M440.4,453.155v4.991l-2.829,1.635v-4.993Z" transform="translate(-412.621 -431.198)" fill="#fcfcfc"/>
+    </g>
+    <g id="Group_37" data-name="Group 37" transform="translate(558.92 1285.317)">
+      <path id="Path_13-6" data-name="Path 13" d="M304.469,318.423v8.049l-3.862-2.2-5.887,7.045v9.928l-5.143,2.969-14.892-8.6v-17.2l14.892-8.6Z" transform="translate(-274.685 -309.825)" fill="#fcfcfc"/>
+      <path id="Path_14-6" data-name="Path 14" d="M440.4,453.155v4.991l-2.829,1.635v-4.993Z" transform="translate(-412.621 -431.198)" fill="#fcfcfc"/>
+    </g>
+  </g>
+</svg>
