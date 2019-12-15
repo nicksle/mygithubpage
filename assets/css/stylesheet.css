@@ -383,7 +383,11 @@ h4 {
 }
 
 #helix {
-    background-color: #447DE2;
+    color: #E30000;
+}
+
+#helix-card {
+    background-color: #E30000;
 }
 
 #venmo {
@@ -434,13 +438,6 @@ h4 {
 	background-color: #80DB71;
 }
 
-#sls {
-	color: #E30000;
-}
-
-#sls-text {
-	color: #E30000;
-}
 
 #wegrow-text {
     color: #4FBF5C;
