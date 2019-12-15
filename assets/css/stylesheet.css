@@ -277,17 +277,16 @@ h4 {
 }
 
 .btn-helix {
-	transition: color 0.5s ease;
-	transition: background 0.3s ease;
+	transition: color 0.5s ease, box-shadow 0.5s ease, background 0.3s ease;
   font-family: "Circular-Medium";
   color: #0A121E;
-  background-color:#8DAAD3;
+  background-color:#FBD2D2;
 }
 
 .btn-helix:hover {
-    color: #447DE2;
+    color: #E30000;
     background-color:#FAFAFA;
-    box-shadow: 1px 2px #112D56;
+    box-shadow: 2px 2px #A90000;
 }
 
 .btn-venmo {
@@ -313,12 +312,11 @@ h4 {
 .btn-hiven:hover {
     color: #7A00D3;
     background-color: #FAFAFA;
-    box-shadow: 1px 2px #482E5C;
+    box-shadow: 2px 2px #482E5C;
 }
 
 .btn-healthcare {
-	transition: color 0.5s ease;
-	transition: background 0.3s ease;
+	transition: color 0.5s ease, box-shadow 0.5s ease, background 0.3s ease;
 	font-family: "Circular-Medium";
 	color:#133142;
 	background-color: #DB859D;
@@ -347,7 +345,7 @@ h4 {
 .btn-search:hover {
     color: #0061FF;
     background-color: #FAFAFA;
-    box-shadow: 1px 2px #253753;
+    box-shadow: 2px 2px #253753;
 }
 
 
